@@ -1,0 +1,1 @@
+{"text": "Answer: 11", "reasoning": "We see the reasoning says N^2 = 121, N=11. So answer is 11.", "prompt_tokens": 282, "completion_tokens": 27, "reasoning_tokens": 22, "total_tokens": 309, "cached": false, "latency_s": 1.171, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "daba7b42337277e58d878d91f331e050663e663e4271ff2a8a4d158f983008aa"}

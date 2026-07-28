@@ -1,0 +1,125 @@
+{
+  "rates": {
+    "clean": 0.1,
+    "adversarial": 0.3333333333333333
+  },
+  "timeout_s": 134.701,
+  "median_ok_latency_s": 4.0375,
+  "N": 20000,
+  "pipelines": {
+    "K1_clean": {
+      "completion_rate": 0.899,
+      "blocked_rate": 0.10099999999999998,
+      "mean_latency": 22.351685699999997,
+      "p95_latency": 134.701,
+      "wasted_fraction": 0.60867002080295
+    },
+    "K1_adversarial": {
+      "completion_rate": 0.66685,
+      "blocked_rate": 0.33314999999999995,
+      "mean_latency": 51.1864642,
+      "p95_latency": 134.701,
+      "wasted_fraction": 0.8767090841566664
+    },
+    "K2_clean": {
+      "completion_rate": 0.80605,
+      "blocked_rate": 0.19394999999999996,
+      "mean_latency": 42.37780005,
+      "p95_latency": 138.488,
+      "wasted_fraction": 0.6164845489661042
+    },
+    "K2_adversarial": {
+      "completion_rate": 0.4408,
+      "blocked_rate": 0.5591999999999999,
+      "mean_latency": 85.91328205,
+      "p95_latency": 149.32669999999993,
+      "wasted_fraction": 0.8767538313361407
+    },
+    "K3_clean": {
+      "completion_rate": 0.7302,
+      "blocked_rate": 0.26980000000000004,
+      "mean_latency": 59.5158557,
+      "p95_latency": 151.72264999999996,
+      "wasted_fraction": 0.6106327359752637
+    },
+    "K3_adversarial": {
+      "completion_rate": 0.29495,
+      "blocked_rate": 0.70505,
+      "mean_latency": 108.48959965000002,
+      "p95_latency": 166.65599999999998,
+      "wasted_fraction": 0.8753921146025723
+    },
+    "K5_clean": {
+      "completion_rate": 0.5912,
+      "blocked_rate": 0.40880000000000005,
+      "mean_latency": 90.27854305,
+      "p95_latency": 175.96004999999997,
+      "wasted_fraction": 0.6099541146726557
+    },
+    "K5_adversarial": {
+      "completion_rate": 0.1314,
+      "blocked_rate": 0.8686,
+      "mean_latency": 133.65093525,
+      "p95_latency": 180.11929999999998,
+      "wasted_fraction": 0.8754243910163733
+    }
+  },
+  "headline": {
+    "clean_K3_completion": 0.7302,
+    "adv_K3_completion": 0.29495,
+    "completion_drop_K3": 0.43524999999999997,
+    "adv_K3_blocked": 0.70505
+  },
+  "mitigation": {
+    "t_kill_s": 32.68345,
+    "max_retries": 2,
+    "K2_clean": {
+      "completion_rate": 0.99805,
+      "blocked_rate": 0.0019500000000000073,
+      "mean_latency": 26.375089575000004,
+      "p95_latency": 71.85617249999997,
+      "naive_completion": 0.80605,
+      "recovered": 0.19199999999999995
+    },
+    "K2_adversarial": {
+      "completion_rate": 0.92545,
+      "blocked_rate": 0.07455,
+      "mean_latency": 49.0683590825,
+      "p95_latency": 112.38862749999997,
+      "naive_completion": 0.4408,
+      "recovered": 0.48464999999999997
+    },
+    "K3_clean": {
+      "completion_rate": 0.99745,
+      "blocked_rate": 0.0025500000000000522,
+      "mean_latency": 39.274179587499994,
+      "p95_latency": 95.15170499999991,
+      "naive_completion": 0.7302,
+      "recovered": 0.26725
+    },
+    "K3_adversarial": {
+      "completion_rate": 0.8944,
+      "blocked_rate": 0.10560000000000003,
+      "mean_latency": 72.14483440749999,
+      "p95_latency": 147.950405,
+      "naive_completion": 0.29495,
+      "recovered": 0.59945
+    },
+    "K5_clean": {
+      "completion_rate": 0.9953,
+      "blocked_rate": 0.0047000000000000375,
+      "mean_latency": 65.6773628075,
+      "p95_latency": 133.8448725,
+      "naive_completion": 0.5912,
+      "recovered": 0.4041
+    },
+    "K5_adversarial": {
+      "completion_rate": 0.82845,
+      "blocked_rate": 0.17154999999999998,
+      "mean_latency": 114.908579055,
+      "p95_latency": 208.17127249999996,
+      "naive_completion": 0.1314,
+      "recovered": 0.6970500000000001
+    }
+  }
+}

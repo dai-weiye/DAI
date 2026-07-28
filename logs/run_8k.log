@@ -1,0 +1,16 @@
+[plan] 360 item-conditions across ['gsm8k', 'math500', 'gpqa_diamond'] x ['clean', 'adversarial']
+  25/360 done, spend $0.019
+  50/360 done, spend $0.096
+  75/360 done, spend $0.123
+  100/360 done, spend $0.191
+  125/360 done, spend $0.248
+  150/360 done, spend $0.333
+  175/360 done, spend $0.399
+  200/360 done, spend $0.454
+  225/360 done, spend $0.489
+  250/360 done, spend $0.549
+  275/360 done, spend $0.654
+  300/360 done, spend $0.840
+  325/360 done, spend $0.941
+  350/360 done, spend $1.049
+WROTE 360 records to results/main_records_8k.jsonl; new spend $1.1091

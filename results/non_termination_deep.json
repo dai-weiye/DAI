@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "cap8k": 8192,
+    "cap2k": 2048,
+    "n_8k": 360,
+    "n_2k": 360,
+    "reasoner": "deepseek-v4-pro",
+    "offline": true
+  },
+  "rate_8k": {
+    "gpqa_diamond/adversarial": {
+      "nonterm": 29,
+      "n": 60,
+      "rate": 0.48333333333333334
+    },
+    "gpqa_diamond/clean": {
+      "nonterm": 16,
+      "n": 60,
+      "rate": 0.26666666666666666
+    },
+    "gsm8k/adversarial": {
+      "nonterm": 21,
+      "n": 60,
+      "rate": 0.35
+    },
+    "gsm8k/clean": {
+      "nonterm": 0,
+      "n": 60,
+      "rate": 0.0
+    },
+    "math500/adversarial": {
+      "nonterm": 10,
+      "n": 60,
+      "rate": 0.16666666666666666
+    },
+    "math500/clean": {
+      "nonterm": 2,
+      "n": 60,
+      "rate": 0.03333333333333333
+    },
+    "_overall": {
+      "clean_rate": 0.1,
+      "adv_rate": 0.3333333333333333,
+      "distractor_multiplier": 3.333333333333333,
+      "clean_n": 180,
+      "adv_n": 180
+    }
+  },
+  "rate_2k": {
+    "gpqa_diamond/adversarial": {
+      "nonterm": 42,
+      "n": 60,
+      "rate": 0.7
+    },
+    "gpqa_diamond/clean": {
+      "nonterm": 31,
+      "n": 60,
+      "rate": 0.5166666666666667
+    },
+    "gsm8k/adversarial": {
+      "nonterm": 27,
+      "n": 60,
+      "rate": 0.45
+    },
+    "gsm8k/clean": {
+      "nonterm": 0,
+      "n": 60,
+      "rate": 0.0
+    },
+    "math500/adversarial": {
+      "nonterm": 18,
+      "n": 60,
+      "rate": 0.3
+    },
+    "math500/clean": {
+      "nonterm": 6,
+      "n": 60,
+      "rate": 0.1
+    },
+    "_overall": {
+      "clean_rate": 0.20555555555555555,
+      "adv_rate": 0.48333333333333334,
+      "distractor_multiplier": 2.3513513513513513,
+      "clean_n": 180,
+      "adv_n": 180
+    }
+  },
+  "budget_sensitivity": {
+    "gpqa_diamond/adversarial": {
+      "rate_2k": 0.7,
+      "rate_8k": 0.48333333333333334,
+      "delta": -0.21666666666666662
+    },
+    "gpqa_diamond/clean": {
+      "rate_2k": 0.5166666666666667,
+      "rate_8k": 0.26666666666666666,
+      "delta": -0.25000000000000006
+    },
+    "gsm8k/adversarial": {
+      "rate_2k": 0.45,
+      "rate_8k": 0.35,
+      "delta": -0.10000000000000003
+    },
+    "gsm8k/clean": {
+      "rate_2k": 0.0,
+      "rate_8k": 0.0,
+      "delta": 0.0
+    },
+    "math500/adversarial": {
+      "rate_2k": 0.3,
+      "rate_8k": 0.16666666666666666,
+      "delta": -0.13333333333333333
+    },
+    "math500/clean": {
+      "rate_2k": 0.1,
+      "rate_8k": 0.03333333333333333,
+      "delta": -0.06666666666666668
+    }
+  },
+  "mechanism": {
+    "n_traces": 360,
+    "doubt_density": {
+      "nonterm_mean": 0.8580385729798115,
+      "term_mean": 0.5209717383929775,
+      "gap": 0.33706683458683395,
+      "ci": [
+        0.21900746802102178,
+        0.4536295618043377
+      ],
+      "n_nonterm": 78,
+      "n_term": 282,
+      "significant": true
+    },
+    "loop_ratio": {
+      "nonterm_mean": 0.0438770716963068,
+      "term_mean": 0.01992407716143642,
+      "gap": 0.02395299453487038,
+      "ci": [
+        0.013329935885340309,
+        0.03530844837743297
+      ],
+      "n_nonterm": 78,
+      "n_term": 282,
+      "significant": true
+    },
+    "switches_per_1k": {
+      "nonterm_mean": 27.242897672502814,
+      "term_mean": 34.32199083606732,
+      "gap": -7.079093163564508,
+      "ci": [
+        -10.22034736594097,
+        -3.8326509211476036
+      ],
+      "n_nonterm": 78,
+      "n_term": 282,
+      "significant": true
+    }
+  },
+  "effort_auroc_valid_only": {
+    "auroc": 0.4559451985922574,
+    "n": 282,
+    "err_rate": 0.2765957446808511
+  },
+  "reach_then_abandon_by_nonterm": {
+    "n_nonterm": 78,
+    "n_wrote_answer_then_abandoned": 17,
+    "fraction": 0.21794871794871795
+  }
+}

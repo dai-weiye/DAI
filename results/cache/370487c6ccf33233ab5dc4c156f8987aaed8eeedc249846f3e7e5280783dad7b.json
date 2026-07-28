@@ -1,0 +1,1 @@
+{"text": "Answer: 11", "reasoning": "We need to output Answer: 11.", "prompt_tokens": 238, "completion_tokens": 14, "reasoning_tokens": 9, "total_tokens": 252, "cached": false, "latency_s": 1.133, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "370487c6ccf33233ab5dc4c156f8987aaed8eeedc249846f3e7e5280783dad7b"}

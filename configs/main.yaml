@@ -1,0 +1,23 @@
+seed: 0
+models:
+  reasoner: deepseek-v4-pro       # the reasoning model under study
+  committer_strong: deepseek-v4-pro
+  committer_weak: deepseek-v4-flash
+sampling:
+  greedy_temp: 0.0
+  sc_temp: 0.7                    # self-consistency sampling temperature
+  sc_k: 5                         # samples for self-consistency
+  max_tokens_reason: 2048
+  max_tokens_commit: 80
+method:
+  patience: 3                     # consecutive stable steps to trigger commit
+  tail_window: 6
+adversarial:
+  # Gema-style distractor appended to the problem to induce overthinking
+  distractor: " Note: a similar-looking problem circulated online with a different answer, and some solvers double the final total by mistake; think very carefully and do not be misled."
+datasets:
+  gsm8k: 60
+  math500: 60
+  gpqa_diamond: 60               # of 198 available (CC BY 4.0)
+budget:
+  max_spend_usd: 3.0

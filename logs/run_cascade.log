@@ -1,0 +1,15 @@
+flash answers: 360; new spend $0.1277
+
+flash-only acc=0.500 (cost $0.1285); pro-only acc=0.489 (cost $0.3945)
+
+ escalate%  cascade_acc  cascade_cost  cost_vs_pro
+        0%        0.500       0.1285$       32.6%
+       10%        0.514       0.1909$       48.4%
+       20%        0.522       0.2528$       64.1%
+       30%        0.533       0.3145$       79.7%
+       40%        0.536       0.3710$       94.0%
+       50%        0.511       0.4176$      105.8%
+       70%        0.492       0.4784$      121.3%
+      100%        0.489       0.5230$      132.6%
+
+wrote cascade.json; total new spend $0.1277

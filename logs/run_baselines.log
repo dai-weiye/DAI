@@ -1,0 +1,4 @@
+[plan] verbalized=240 self-consistency=160 (k=5)
+wrote 240 -> baseline_verbalized.jsonl; spend so far $0.181
+wrote 139 -> baseline_selfconsistency.jsonl; spend so far $0.890
+TOTAL new spend $0.8900

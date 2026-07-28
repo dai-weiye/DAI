@@ -1,0 +1,232 @@
+{
+  "patience_sweep": [
+    {
+      "dataset": "gsm8k",
+      "condition": "clean",
+      "patience": 1,
+      "acc_stable_commit": 0.06666666666666667,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "clean",
+      "patience": 2,
+      "acc_stable_commit": 0.35,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "clean",
+      "patience": 3,
+      "acc_stable_commit": 0.8166666666666667,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "clean",
+      "patience": 4,
+      "acc_stable_commit": 0.9166666666666666,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "clean",
+      "patience": 5,
+      "acc_stable_commit": 0.95,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "adversarial",
+      "patience": 1,
+      "acc_stable_commit": 0.08333333333333333,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "adversarial",
+      "patience": 2,
+      "acc_stable_commit": 0.16666666666666666,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "adversarial",
+      "patience": 3,
+      "acc_stable_commit": 0.5166666666666667,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "adversarial",
+      "patience": 4,
+      "acc_stable_commit": 0.5833333333333334,
+      "n": 60
+    },
+    {
+      "dataset": "gsm8k",
+      "condition": "adversarial",
+      "patience": 5,
+      "acc_stable_commit": 0.55,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "clean",
+      "patience": 1,
+      "acc_stable_commit": 0.05,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "clean",
+      "patience": 2,
+      "acc_stable_commit": 0.2,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "clean",
+      "patience": 3,
+      "acc_stable_commit": 0.4,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "clean",
+      "patience": 4,
+      "acc_stable_commit": 0.5,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "clean",
+      "patience": 5,
+      "acc_stable_commit": 0.5666666666666667,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "adversarial",
+      "patience": 1,
+      "acc_stable_commit": 0.06666666666666667,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "adversarial",
+      "patience": 2,
+      "acc_stable_commit": 0.13333333333333333,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "adversarial",
+      "patience": 3,
+      "acc_stable_commit": 0.3,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "adversarial",
+      "patience": 4,
+      "acc_stable_commit": 0.4166666666666667,
+      "n": 60
+    },
+    {
+      "dataset": "math500",
+      "condition": "adversarial",
+      "patience": 5,
+      "acc_stable_commit": 0.43333333333333335,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "clean",
+      "patience": 1,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "clean",
+      "patience": 2,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "clean",
+      "patience": 3,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "clean",
+      "patience": 4,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "clean",
+      "patience": 5,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "adversarial",
+      "patience": 1,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "adversarial",
+      "patience": 2,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "adversarial",
+      "patience": 3,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "adversarial",
+      "patience": 4,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "condition": "adversarial",
+      "patience": 5,
+      "acc_stable_commit": 0.0,
+      "n": 60
+    }
+  ],
+  "efficiency": {
+    "deepseek-v4-flash": {
+      "calls": 362,
+      "pt": 221004,
+      "ct": 22987,
+      "rt": 22237,
+      "lat": 615.1879999999996,
+      "cost": 0.03724400000000002
+    },
+    "deepseek-v4-pro": {
+      "calls": 763,
+      "pt": 273828,
+      "ct": 471126,
+      "rt": 425346,
+      "lat": 7608.645999999995,
+      "cost": 0.5211870000000004
+    }
+  }
+}

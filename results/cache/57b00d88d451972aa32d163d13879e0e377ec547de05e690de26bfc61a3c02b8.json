@@ -1,0 +1,1 @@
+{"text": "Answer: 83", "reasoning": "We are given the reasoning and the final answer is 83. So the answer is 83.", "prompt_tokens": 206, "completion_tokens": 25, "reasoning_tokens": 20, "total_tokens": 231, "cached": false, "latency_s": 1.368, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "57b00d88d451972aa32d163d13879e0e377ec547de05e690de26bfc61a3c02b8"}

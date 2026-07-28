@@ -1,0 +1,1 @@
+{"text": "Answer: 70", "reasoning": "The reasoning is clear: silver = 40, gold = 70. So answer is 70.", "prompt_tokens": 210, "completion_tokens": 26, "reasoning_tokens": 21, "total_tokens": 236, "cached": false, "latency_s": 1.011, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "b07bf4c14ecc79b54680e42bb99c1099c85f03eae33333158e3b910568d6d48c"}

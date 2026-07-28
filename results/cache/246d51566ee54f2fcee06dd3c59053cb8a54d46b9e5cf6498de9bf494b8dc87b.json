@@ -1,0 +1,1 @@
+{"text": "Answer: 78", "reasoning": "The reasoning is correct. Profit = $78. Answer: 78.", "prompt_tokens": 335, "completion_tokens": 20, "reasoning_tokens": 15, "total_tokens": 355, "cached": false, "latency_s": 1.126, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "246d51566ee54f2fcee06dd3c59053cb8a54d46b9e5cf6498de9bf494b8dc87b"}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "n": 360,
+    "cap": 8192,
+    "reasoner": "deepseek-v4-pro",
+    "offline": true,
+    "seed": 0
+  },
+  "definition_sensitivity": {
+    "definitions": {
+      "a_current": {
+        "total": 78,
+        "clean_k": 18,
+        "clean_n": 180,
+        "clean_rate": 0.1,
+        "adv_k": 60,
+        "adv_n": 180,
+        "adv_rate": 0.3333333333333333,
+        "multiplier": 3.333333333333333
+      },
+      "b_stricter": {
+        "total": 79,
+        "clean_k": 19,
+        "clean_n": 180,
+        "clean_rate": 0.10555555555555556,
+        "adv_k": 60,
+        "adv_n": 180,
+        "adv_rate": 0.3333333333333333,
+        "multiplier": 3.1578947368421053
+      },
+      "c_simplest": {
+        "total": 78,
+        "clean_k": 18,
+        "clean_n": 180,
+        "clean_rate": 0.1,
+        "adv_k": 60,
+        "adv_n": 180,
+        "adv_rate": 0.3333333333333333,
+        "multiplier": 3.333333333333333
+      }
+    },
+    "agreement": {
+      "a_current__b_stricter": {
+        "agree": 359,
+        "n": 360,
+        "frac": 0.9972222222222222
+      },
+      "a_current__c_simplest": {
+        "agree": 360,
+        "n": 360,
+        "frac": 1.0
+      },
+      "b_stricter__c_simplest": {
+        "agree": 359,
+        "n": 360,
+        "frac": 0.9972222222222222
+      }
+    }
+  },
+  "marker_leave_one_out": {
+    "n_traces": 360,
+    "n_nonterm": 78,
+    "n_term": 282,
+    "full_gap": 0.33706683458683395,
+    "n_markers": 16,
+    "loo_gaps": {
+      "wait": 0.047225355420435045,
+      "hmm": 0.33437085372503805,
+      "let me reconsider": 0.33706683458683395,
+      "but actually": 0.3387217383543313,
+      "alternatively": 0.3498404603733462,
+      "let me recheck": 0.33706683458683395,
+      "on second thought": 0.33706683458683395,
+      "recompute": 0.3367181490907548,
+      "let me re-": 0.3368196861419911,
+      "double-check": 0.4440501223598744,
+      "actually,": 0.17218812642069353,
+      "hold on": 0.33706683458683395,
+      "let me think again": 0.33706683458683395,
+      "that's not right": 0.33640407244802895,
+      "i made a mistake": 0.33726294694701275,
+      "let me redo": 0.33706683458683395
+    },
+    "loo_min_gap": 0.047225355420435045,
+    "loo_min_marker": "wait",
+    "loo_max_gap": 0.4440501223598744,
+    "loo_max_marker": "double-check",
+    "loo_range": 0.39682476693943936
+  },
+  "auroc_permutation": {
+    "n_valid": 282,
+    "err_rate": 0.2765957446808511,
+    "observed_auroc": 0.4559451985922574,
+    "perm_p_vs_chance": 0.2573485302939412,
+    "n_perm": 5000,
+    "seed_aurocs": {
+      "0": {
+        "auroc": 0.4555052790346908,
+        "boot_mean": 0.45462920870057133,
+        "boot_ci": [
+          0.3720512505904707,
+          0.5378823122380181
+        ]
+      },
+      "1": {
+        "auroc": 0.4558195072900955,
+        "boot_mean": 0.4547840640944124,
+        "boot_ci": [
+          0.37375657623734004,
+          0.5367514206004743
+        ]
+      },
+      "2": {
+        "auroc": 0.4558195072900955,
+        "boot_mean": 0.4560473404503268,
+        "boot_ci": [
+          0.3732591039471223,
+          0.5412219418987628
+        ]
+      }
+    },
+    "seed_auroc_mean": 0.45571476453829396,
+    "seed_auroc_spread": 0.0003142282554047249
+  }
+}

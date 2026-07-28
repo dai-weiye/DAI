@@ -1,0 +1,1 @@
+{"text": "Answer: 14/3", "reasoning": "We are given the reasoning and final answer: 14/3. So answer: 14/3.", "prompt_tokens": 350, "completion_tokens": 29, "reasoning_tokens": 22, "total_tokens": 379, "cached": false, "latency_s": 1.098, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "22739903a1f5eb560da75153c8573b043598f73a35a7ff0baa64ee8d6be454bb"}

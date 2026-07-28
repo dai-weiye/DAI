@@ -1,0 +1,1 @@
+{"text": "Answer: 10", "reasoning": "The problem is straightforward, the reasoning yields 10. So answer is 10.", "prompt_tokens": 949, "completion_tokens": 22, "reasoning_tokens": 17, "total_tokens": 971, "cached": false, "latency_s": 1.356, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "83a661935d52a789caccd6a60fa6bef24e0b034ab1a8e561ab8b2d3620cc19da"}

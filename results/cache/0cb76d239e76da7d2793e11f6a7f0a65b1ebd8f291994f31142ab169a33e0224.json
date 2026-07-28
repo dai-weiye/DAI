@@ -1,0 +1,1 @@
+{"text": "Answer: $40", "reasoning": "We are given the problem and reasoning. The answer is $40. So final answer.", "prompt_tokens": 345, "completion_tokens": 23, "reasoning_tokens": 18, "total_tokens": 368, "cached": false, "latency_s": 1.683, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "0cb76d239e76da7d2793e11f6a7f0a65b1ebd8f291994f31142ab169a33e0224"}

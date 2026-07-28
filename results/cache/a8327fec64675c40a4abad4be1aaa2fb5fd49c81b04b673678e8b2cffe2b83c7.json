@@ -1,0 +1,1 @@
+{"text": "Answer: 25", "reasoning": "We are given reasoning that concludes 25 miles. So answer: 25.", "prompt_tokens": 219, "completion_tokens": 21, "reasoning_tokens": 16, "total_tokens": 240, "cached": false, "latency_s": 1.415, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "a8327fec64675c40a4abad4be1aaa2fb5fd49c81b04b673678e8b2cffe2b83c7"}

@@ -1,0 +1,1 @@
+{"text": "Answer: 14", "reasoning": "We are given reasoning that concludes 14 bags. So answer is 14.", "prompt_tokens": 219, "completion_tokens": 21, "reasoning_tokens": 16, "total_tokens": 240, "cached": false, "latency_s": 2.469, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "ac5e2e7e11af46d2eed5c6bb28f44c834ee71beb812277d29d81153a000ef3ad"}

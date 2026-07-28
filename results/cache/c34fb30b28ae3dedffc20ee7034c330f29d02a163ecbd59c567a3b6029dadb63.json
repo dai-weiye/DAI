@@ -1,0 +1,1 @@
+{"text": "Answer: A", "reasoning": "We are done. The expectation value is -0.7. So answer A.", "prompt_tokens": 879, "completion_tokens": 21, "reasoning_tokens": 17, "total_tokens": 900, "cached": false, "latency_s": 1.65, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "c34fb30b28ae3dedffc20ee7034c330f29d02a163ecbd59c567a3b6029dadb63"}

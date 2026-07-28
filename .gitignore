@@ -1,0 +1,26 @@
+# Secrets — NEVER commit
+.env
+*.key
+*.pem
+
+# Deanonymizing / local tooling (contains absolute paths with username)
+.claude/
+.vscode/
+.idea/
+
+# OS cruft
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw call logs (may contain timing/host specifics; analyses read the cache instead)
+logs/*.jsonl
+
+# Note: results/cache/ IS committed on purpose — it makes every analysis reproducible
+# offline at $0. Remove the next line's leading '#' if you prefer a lighter repo.
+# results/cache/

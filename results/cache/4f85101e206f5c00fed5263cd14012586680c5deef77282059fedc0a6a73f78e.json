@@ -1,0 +1,1 @@
+{"text": "Answer: 35", "reasoning": "We need to output the answer based on reasoning. The answer is 35.", "prompt_tokens": 772, "completion_tokens": 21, "reasoning_tokens": 16, "total_tokens": 793, "cached": false, "latency_s": 1.666, "model": "deepseek-v4-flash", "finish_reason": "stop", "raw_key": "4f85101e206f5c00fed5263cd14012586680c5deef77282059fedc0a6a73f78e"}
