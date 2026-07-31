@@ -104,7 +104,7 @@ def fig_negative_earlycommit():
     for i in range(len(x)):
         x[i] += 0.62 * (i // 2)
     w = 0.26
-    fig, ax = plt.subplots(figsize=(6.8, 3.6))
+    fig, ax = plt.subplots(figsize=(7.2, 4.2))
     series = [
         (full, P["clean"], "trust model's answer", -w),
         (stab, P["accent"], "early-commit: intrinsic stable answer (no external model)", 0.0),
@@ -115,19 +115,19 @@ def fig_negative_earlycommit():
                **{k: v for k, v in bar_kw(col).items() if k != "width"})
         for xi, v in zip(x + off, vals):
             ax.text(xi, v + 0.016, f"{v:.2f}", ha="center", va="bottom",
-                    fontsize=6.6, color=col, weight="medium")
+                    fontsize=9.5, color=col, weight="medium")
     # two-tier x labels: condition under each bar-triple, dataset centered under the block
     ax.set_xticks(x)
-    ax.set_xticklabels([CLAB[c] for _, c in keys], fontsize=8.5)
+    ax.set_xticklabels([CLAB[c] for _, c in keys], fontsize=10.5)
     ax.tick_params(axis="x", length=0)
     for di, d in enumerate(DSORD):
         cx = (x[2*di] + x[2*di + 1]) / 2
-        ax.text(cx, -0.145, DSLAB[d], ha="center", va="top", fontsize=9.5,
+        ax.text(cx, -0.145, DSLAB[d], ha="center", va="top", fontsize=11.5,
                 weight="medium", transform=ax.get_xaxis_transform())
     ax.set_ylabel("accuracy")
     ax.set_ylim(0, 1.08)
     ax.legend(loc="upper center", ncol=1, bbox_to_anchor=(0.5, 1.02),
-              handlelength=1.1, fontsize=7.6, labelspacing=0.3)
+              handlelength=1.1, fontsize=9.5, labelspacing=0.35)
     style_axes(ax)
     fig.tight_layout()
     fig.savefig(FIG / "fig_earlycommit_neg.pdf"); fig.savefig(FIG / "fig_earlycommit_neg.png")
