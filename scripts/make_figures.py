@@ -103,24 +103,21 @@ def fig_negative_earlycommit():
     # add a small gap between dataset blocks
     for i in range(len(x)):
         x[i] += 0.62 * (i // 2)
-    w = 0.22
-    fig, ax = plt.subplots(figsize=(7.4, 4.3))
+    w = 0.26
+    fig, ax = plt.subplots(figsize=(6.6, 3.78))
     series = [
-        (full, P["clean"], "trust model's answer", -0.30),
+        (full, P["clean"], "trust model's answer", -w),
         (stab, P["accent"], "early-commit: intrinsic stable answer (no external model)", 0.0),
-        (ec, P["adv"], "early-commit: v4-flash override", +0.30),
+        (ec, P["adv"], "early-commit: v4-flash override", +w),
     ]
-    stagger = (0.020, 0.050, 0.080)
-    for si, (vals, col, lab, off) in enumerate(series):
+    for vals, col, lab, off in series:
         ax.bar(x + off, vals, w, label=lab,
                **{k: v for k, v in bar_kw(col).items() if k != "width"})
+        # Bar centres within a group sit 0.26 apart, which is narrower than a
+        # horizontal "0.00" label; setting the labels upright keeps them clear.
         for xi, v in zip(x + off, vals):
-            if v >= 0.20:
-                ax.text(xi, v / 2, f"{v:.2f}", ha="center", va="center",
-                        fontsize=8.5, color="white", weight="medium")
-            else:
-                ax.text(xi, v + stagger[si], f"{v:.2f}", ha="center", va="bottom",
-                        fontsize=8.5, color=col, weight="medium")
+            ax.text(xi, v + 0.02, f"{v:.2f}", ha="center", va="bottom",
+                    rotation=90, fontsize=9.5, color="black")
     # two-tier x labels: condition under each bar-triple, dataset centered under the block
     ax.set_xticks(x)
     ax.set_xticklabels([CLAB[c] for _, c in keys], fontsize=10.5)
@@ -130,8 +127,9 @@ def fig_negative_earlycommit():
         ax.text(cx, -0.145, DSLAB[d], ha="center", va="top", fontsize=11.5,
                 weight="medium", transform=ax.get_xaxis_transform())
     ax.set_ylabel("accuracy")
-    ax.set_ylim(0, 1.08)
-    ax.legend(loc="upper center", ncol=1, bbox_to_anchor=(0.5, 1.02),
+    ax.set_ylim(0, 1.34)
+    ax.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
+    ax.legend(loc="upper center", ncol=1, bbox_to_anchor=(0.5, 1.015),
               handlelength=1.1, fontsize=9.5, labelspacing=0.35)
     style_axes(ax)
     fig.tight_layout()
