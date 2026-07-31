@@ -1,0 +1,1 @@
+{"content": "Total cars = 20.  \nAutomatic = 12.  \nManual = 4.  \nSemi-automatic = 20 - 12 - 4 = 4.  \nPercentage = (4 / 20) × 100% = 20%.\n\nAnswer: 20%", "finish_reason": "stop", "completion_tokens": 169, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

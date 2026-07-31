@@ -1,0 +1,162 @@
+{
+  "gemini-3-pro-preview-thinking": {
+    "normal": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "gemini-3-pro-preview",
+      "ct": 1059,
+      "rt": 660,
+      "finish": "stop",
+      "len_text": 1091
+    },
+    "tiny": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "gemini-3-pro-preview",
+      "ct": 837,
+      "rt": 467,
+      "finish": "stop",
+      "len_text": 1027
+    }
+  },
+  "gpt-5.4": {
+    "normal": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "gpt-5.4",
+      "ct": 398,
+      "rt": 108,
+      "finish": "stop",
+      "len_text": 637
+    },
+    "tiny": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "gpt-5.4",
+      "ct": 383,
+      "rt": 75,
+      "finish": "stop",
+      "len_text": 654
+    }
+  },
+  "o4-mini": {
+    "normal": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "o4-mini-2025-04-16",
+      "ct": 732,
+      "rt": 576,
+      "finish": "stop",
+      "len_text": 256
+    },
+    "tiny": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "o4-mini-2025-04-16",
+      "ct": 64,
+      "rt": 64,
+      "finish": "length",
+      "len_text": 0
+    }
+  },
+  "qwen3-235b-a22b-thinking-2507": {
+    "normal": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "qwen3-235b-a22b-thinking-2507",
+      "ct": 2774,
+      "rt": 2296,
+      "finish": "stop",
+      "len_text": 1335
+    },
+    "tiny": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "qwen3-235b-a22b-thinking-2507",
+      "ct": 2226,
+      "rt": 2156,
+      "finish": "length",
+      "len_text": 304
+    }
+  },
+  "grok-4": {
+    "normal": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "grok-4",
+      "ct": 310,
+      "rt": 0,
+      "finish": "stop",
+      "len_text": 816
+    },
+    "tiny": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "grok-4",
+      "ct": 491,
+      "rt": 0,
+      "finish": "stop",
+      "len_text": 1271
+    }
+  },
+  "glm-5": {
+    "normal": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "glm-5",
+      "ct": 1703,
+      "rt": 1399,
+      "finish": "stop",
+      "len_text": 702
+    },
+    "tiny": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "glm-5",
+      "ct": 1135,
+      "rt": 1062,
+      "finish": "length",
+      "len_text": 208
+    }
+  },
+  "claude-opus-4-8": {
+    "normal": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "claude-opus-4-8",
+      "ct": 700,
+      "rt": 0,
+      "finish": "stop",
+      "len_text": 1292
+    },
+    "tiny": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "claude-opus-4-8",
+      "ct": 64,
+      "rt": 0,
+      "finish": "length",
+      "len_text": 0
+    }
+  },
+  "deepseek-v4-pro": {
+    "normal": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "gpt-5.6-luna",
+      "ct": 286,
+      "rt": 98,
+      "finish": "stop",
+      "len_text": 488
+    },
+    "tiny": {
+      "ok": true,
+      "param": "max_tokens",
+      "model": "gpt-5.6-luna",
+      "ct": 274,
+      "rt": 0,
+      "finish": "stop",
+      "len_text": 482
+    }
+  }
+}

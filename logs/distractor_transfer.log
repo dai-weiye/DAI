@@ -1,0 +1,94 @@
+=== distractor-transfer probe | GPQA | cap=8192 | 2 models x 60 items x 3 conditions = 360 calls ===
+  20/360 (19 new calls)
+  40/360 (32 new calls)
+  60/360 (46 new calls)
+  80/360 (59 new calls)
+  100/360 (72 new calls)
+  120/360 (86 new calls)
+  140/360 (99 new calls)
+  160/360 (112 new calls)
+  180/360 (126 new calls)
+  200/360 (139 new calls)
+  220/360 (152 new calls)
+  240/360 (166 new calls)
+    [warn] Kimi-K3: Error code: 502 - {'error': {'message': ' (request id: 2026073121015961428896719894006)', 'type': 'upstream_er
+    [warn] Kimi-K3: Connection error.
+    [warn] Kimi-K3: Connection error.
+    [warn] Kimi-K3: Connection error.
+    [warn] Kimi-K3: Error code: 502 - {'error': {'message': ' (request id: 2026073121061497153155965857673)', 'type': 'upstream_er
+  260/360 (179 new calls)
+    [warn] Kimi-K3: Connection error.
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+  280/360 (192 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+  300/360 (206 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+  320/360 (219 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+  340/360 (232 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Connection error.
+  360/360 (240 new calls)
+
+======================================================================
+o3 (OpenAI)   clean 10/60 = 17%
+    authority     13/60  =   22%   RR 1.30
+    self-doubt    13/60  =   22%   RR 1.30
+Kimi-K3 (Moonshot)   clean 9/60 = 15%
+    authority      7/24  =   29%   RR 1.94
+    self-doubt    10/31  =   32%   RR 2.15
+======================================================================
+new (billed) calls: 240   wrote results/multivendor_distractor_transfer.json

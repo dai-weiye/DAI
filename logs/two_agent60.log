@@ -1,0 +1,17 @@
+=== Real 2-agent pipeline (solver->verifier), n=60/condition ===
+  10/120 done, spend $0.000
+  20/120 done, spend $0.000
+  30/120 done, spend $0.000
+  40/120 done, spend $0.000
+  50/120 done, spend $0.048
+  60/120 done, spend $0.055
+  70/120 done, spend $0.055
+  80/120 done, spend $0.062
+  90/120 done, spend $0.082
+  100/120 done, spend $0.113
+  110/120 done, spend $0.113
+  120/120 done, spend $0.117
+  clean: end-to-end completion 68% (blocked 32%); solver-nt 27%, verifier-nt 7%; independence-model predicts 69%
+  adversarial: end-to-end completion 50% (blocked 50%); solver-nt 48%, verifier-nt 3%; independence-model predicts 55%
+new spend: $0.1173
+wrote <repo>/code/results/two_agent.json

@@ -1,0 +1,1 @@
+{"content": "Seattle has 20 sheep.  \nCharleston has 4 times as many sheep as Seattle: \\(4 \\times 20 = 80\\) sheep.  \nToulouse has twice as many sheep as Charleston: \\(2 \\times 80 = 160\\) sheep.  \nTotal sheep = \\(20 + 80 + 160 = 260\\).\n\nAnswer: 260", "finish_reason": "stop", "completion_tokens": 213, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

@@ -1,0 +1,1 @@
+{"content": "The total amount of carrots is 200 pounds. There are 40 restaurants, and each receives 2 pounds. The total amount distributed is 40 × 2 = 80 pounds. The amount not used is 200 − 80 = 120 pounds.\n\nAnswer: 120", "finish_reason": "stop", "completion_tokens": 1093, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

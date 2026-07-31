@@ -1,0 +1,1 @@
+{"content": "To choose 3 boys out of 7, we use combinations: C(7,3) = 35.  \nTo choose 2 girls out of 4, we use combinations: C(4,2) = 6.  \nSince these choices are independent, we multiply: 35 × 6 = 210.\n\nAnswer: 210", "finish_reason": "stop", "completion_tokens": 338, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

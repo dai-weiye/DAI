@@ -1,0 +1,246 @@
+{
+  "o4-mini": {
+    "param": "max_completion_tokens",
+    "honours_cap": true,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 256,
+        "finish": "length",
+        "textlen": 0
+      },
+      {
+        "cap": 1024,
+        "ct": 1024,
+        "finish": "length",
+        "textlen": 0
+      }
+    ]
+  },
+  "claude-opus-4-8": {
+    "param": "max_tokens",
+    "honours_cap": true,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 256,
+        "finish": "length",
+        "textlen": 451
+      },
+      {
+        "cap": 1024,
+        "ct": 1024,
+        "finish": "length",
+        "textlen": 1677
+      }
+    ]
+  },
+  "o3": {
+    "param": "max_completion_tokens",
+    "honours_cap": true,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 256,
+        "finish": "length",
+        "textlen": 0
+      },
+      {
+        "cap": 1024,
+        "ct": 1024,
+        "finish": "length",
+        "textlen": 0
+      }
+    ]
+  },
+  "MiniMax-M2.7": {
+    "param": "max_tokens",
+    "honours_cap": true,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 256,
+        "finish": "length",
+        "textlen": 0
+      },
+      {
+        "cap": 1024,
+        "ct": 1024,
+        "finish": "length",
+        "textlen": 2670
+      }
+    ]
+  },
+  "gpt-oss-120b": {
+    "param": "max_tokens",
+    "honours_cap": true,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 256,
+        "finish": "length",
+        "textlen": 0
+      },
+      {
+        "cap": 1024,
+        "ct": 1024,
+        "finish": "length",
+        "textlen": 36
+      }
+    ]
+  },
+  "Kimi-K3": {
+    "param": "max_tokens",
+    "honours_cap": true,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 256,
+        "finish": "length",
+        "textlen": 0
+      },
+      {
+        "cap": 1024,
+        "ct": 1024,
+        "finish": "length",
+        "textlen": 0
+      }
+    ]
+  },
+  "grok-4": {
+    "param": "max_tokens",
+    "honours_cap": false,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 1714,
+        "finish": "stop",
+        "textlen": 4267
+      },
+      {
+        "cap": 1024,
+        "ct": 1377,
+        "finish": "stop",
+        "textlen": 3688
+      }
+    ]
+  },
+  "grok-3-reasoner": {
+    "param": "max_tokens",
+    "honours_cap": false,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 1957,
+        "finish": "stop",
+        "textlen": 5138
+      },
+      {
+        "cap": 1024,
+        "ct": 1129,
+        "finish": "stop",
+        "textlen": 2840
+      }
+    ]
+  },
+  "gemini-3-pro-preview-thinking": {
+    "param": "max_tokens",
+    "honours_cap": false,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 2876,
+        "finish": "stop",
+        "textlen": 4939
+      },
+      {
+        "cap": 1024,
+        "ct": 2968,
+        "finish": "stop",
+        "textlen": 5101
+      }
+    ]
+  },
+  "grok-4.2": {
+    "param": "max_tokens",
+    "honours_cap": false,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 1297,
+        "finish": "stop",
+        "textlen": 3497
+      },
+      {
+        "cap": 1024,
+        "ct": 1200,
+        "finish": "stop",
+        "textlen": 3168
+      }
+    ]
+  },
+  "qwen3-235b-a22b-thinking-2507": {
+    "param": "max_tokens",
+    "honours_cap": false,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 9002,
+        "finish": "length",
+        "textlen": 815
+      },
+      {
+        "cap": 1024,
+        "ct": 10668,
+        "finish": "length",
+        "textlen": 2479
+      }
+    ]
+  },
+  "gpt-5.4": {
+    "param": "max_completion_tokens",
+    "honours_cap": false,
+    "probes": [
+      {
+        "cap": 256,
+        "ct": 6727,
+        "finish": "stop",
+        "textlen": 14073
+      },
+      {
+        "cap": 1024,
+        "ct": 6816,
+        "finish": "stop",
+        "textlen": 14754
+      }
+    ]
+  },
+  "gemini-3.1-pro-preview-thinking": {
+    "param": "max_tokens",
+    "honours_cap": false,
+    "probes": [
+      {
+        "cap": 256,
+        "err": "Request timed out."
+      },
+      {
+        "cap": 1024,
+        "err": "Request timed out."
+      }
+    ]
+  },
+  "glm-5": {
+    "param": "max_tokens",
+    "honours_cap": false,
+    "probes": [
+      {
+        "cap": 256,
+        "err": "Request timed out."
+      },
+      {
+        "cap": 1024,
+        "err": "Request timed out."
+      }
+    ]
+  }
+}

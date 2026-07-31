@@ -1,0 +1,17 @@
+=== real hedged retry: 60 stalled adversarial runs, <= 2 resamples each at T=0.7 ===
+  10/60  spend $0.000
+  20/60  spend $0.000
+  30/60  spend $0.000
+  40/60  spend $0.000
+  50/60  spend $0.000
+  60/60  spend $0.023
+
+==================================================================
+stalled runs retried              : 60
+escaped within 2 retries        : 24 (40%)
+escape on 1st retry               : 30%  (independence would predict 67%)
+escape on 2nd | 1st still stalled : 14%
+per-stage success with retry      : 80%
+depth-3 completion  naive 30% -> with retry 51%
+new spend: $0.0234
+==================================================================

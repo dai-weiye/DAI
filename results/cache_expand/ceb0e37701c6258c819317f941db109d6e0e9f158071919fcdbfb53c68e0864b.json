@@ -1,0 +1,1 @@
+{"content": "The hat costs $25. The jacket costs three times as much as the hat: 3 × $25 = $75. The pants cost the average of the hat and jacket: ($25 + $75) / 2 = $50. The total cost of the uniform is the sum of these three items: $25 + $75 + $50 = $150.\n\nAnswer: 150", "finish_reason": "stop", "completion_tokens": 500, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

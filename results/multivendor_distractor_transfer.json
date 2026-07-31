@@ -1,0 +1,2433 @@
+{
+  "cap": 8192,
+  "n_requested": 60,
+  "models": {
+    "o3": {
+      "vendor": "OpenAI",
+      "clean": {
+        "k": 10,
+        "n": 60,
+        "rate": 0.16666666666666666,
+        "lo": 0.09313077201321032,
+        "hi": 0.28031851497207827
+      },
+      "styles": {
+        "authority": {
+          "k": 13,
+          "n": 60,
+          "rate": 0.21666666666666667,
+          "lo": 0.13122921046407016,
+          "hi": 0.3362026834734252,
+          "rate_ratio": 1.3
+        },
+        "self-doubt": {
+          "k": 13,
+          "n": 60,
+          "rate": 0.21666666666666667,
+          "lo": 0.13122921046407016,
+          "hi": 0.3362026834734252,
+          "rate_ratio": 1.3
+        }
+      }
+    },
+    "Kimi-K3": {
+      "vendor": "Moonshot",
+      "clean": {
+        "k": 9,
+        "n": 60,
+        "rate": 0.15,
+        "lo": 0.08097349242295689,
+        "hi": 0.26114825891159615
+      },
+      "styles": {
+        "authority": {
+          "k": 7,
+          "n": 25,
+          "rate": 0.28,
+          "lo": 0.1428367383738157,
+          "hi": 0.47576971896558296,
+          "rate_ratio": 1.866666666666667
+        },
+        "self-doubt": {
+          "k": 10,
+          "n": 31,
+          "rate": 0.3225806451612903,
+          "lo": 0.18569230747313034,
+          "hi": 0.49859314440049185,
+          "rate_ratio": 2.150537634408602
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "model": "o3",
+      "id": "gpqa-1",
+      "condition": "clean",
+      "completion_tokens": 2151,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-2",
+      "condition": "clean",
+      "completion_tokens": 750,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-0",
+      "condition": "clean",
+      "completion_tokens": 714,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-1",
+      "condition": "self-doubt",
+      "completion_tokens": 4664,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-2",
+      "condition": "self-doubt",
+      "completion_tokens": 1235,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-0",
+      "condition": "self-doubt",
+      "completion_tokens": 1231,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-1",
+      "condition": "authority",
+      "completion_tokens": 7539,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-0",
+      "condition": "authority",
+      "completion_tokens": 1151,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-2",
+      "condition": "authority",
+      "completion_tokens": 1339,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-3",
+      "condition": "self-doubt",
+      "completion_tokens": 1753,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-4",
+      "condition": "authority",
+      "completion_tokens": 1562,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-4",
+      "condition": "self-doubt",
+      "completion_tokens": 1398,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-3",
+      "condition": "clean",
+      "completion_tokens": 1032,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-6",
+      "condition": "clean",
+      "completion_tokens": 687,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-5",
+      "condition": "clean",
+      "completion_tokens": 1178,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-6",
+      "condition": "authority",
+      "completion_tokens": 1901,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-7",
+      "condition": "self-doubt",
+      "completion_tokens": 3551,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-3",
+      "condition": "authority",
+      "completion_tokens": 1802,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-7",
+      "condition": "clean",
+      "completion_tokens": 2762,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-4",
+      "condition": "clean",
+      "completion_tokens": 1132,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-5",
+      "condition": "self-doubt",
+      "completion_tokens": 1243,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-5",
+      "condition": "authority",
+      "completion_tokens": 1565,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-7",
+      "condition": "authority",
+      "completion_tokens": 7149,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-6",
+      "condition": "self-doubt",
+      "completion_tokens": 1975,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-8",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-8",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-10",
+      "condition": "clean",
+      "completion_tokens": 2764,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-10",
+      "condition": "self-doubt",
+      "completion_tokens": 7276,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-8",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-10",
+      "condition": "authority",
+      "completion_tokens": 4485,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-9",
+      "condition": "clean",
+      "completion_tokens": 557,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-9",
+      "condition": "self-doubt",
+      "completion_tokens": 1040,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-11",
+      "condition": "clean",
+      "completion_tokens": 1552,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-9",
+      "condition": "authority",
+      "completion_tokens": 806,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-12",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-12",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-11",
+      "condition": "self-doubt",
+      "completion_tokens": 2451,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-11",
+      "condition": "authority",
+      "completion_tokens": 1178,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-13",
+      "condition": "clean",
+      "completion_tokens": 1055,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-14",
+      "condition": "clean",
+      "completion_tokens": 948,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-13",
+      "condition": "self-doubt",
+      "completion_tokens": 673,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-13",
+      "condition": "authority",
+      "completion_tokens": 973,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-15",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-14",
+      "condition": "authority",
+      "completion_tokens": 1233,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-17",
+      "condition": "clean",
+      "completion_tokens": 1426,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-14",
+      "condition": "self-doubt",
+      "completion_tokens": 1305,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-12",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-16",
+      "condition": "clean",
+      "completion_tokens": 1012,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-19",
+      "condition": "clean",
+      "completion_tokens": 294,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-17",
+      "condition": "authority",
+      "completion_tokens": 1460,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-16",
+      "condition": "self-doubt",
+      "completion_tokens": 1946,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-19",
+      "condition": "authority",
+      "completion_tokens": 1604,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-19",
+      "condition": "self-doubt",
+      "completion_tokens": 739,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-15",
+      "condition": "authority",
+      "completion_tokens": 8160,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-18",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-18",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-15",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-20",
+      "condition": "clean",
+      "completion_tokens": 2175,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-17",
+      "condition": "self-doubt",
+      "completion_tokens": 1035,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-18",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-16",
+      "condition": "authority",
+      "completion_tokens": 1687,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-21",
+      "condition": "clean",
+      "completion_tokens": 1529,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-20",
+      "condition": "self-doubt",
+      "completion_tokens": 2736,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-22",
+      "condition": "self-doubt",
+      "completion_tokens": 8161,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-23",
+      "condition": "authority",
+      "completion_tokens": 4814,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-22",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-21",
+      "condition": "self-doubt",
+      "completion_tokens": 1331,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-21",
+      "condition": "authority",
+      "completion_tokens": 5267,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-23",
+      "condition": "clean",
+      "completion_tokens": 3124,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-20",
+      "condition": "authority",
+      "completion_tokens": 6423,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-22",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-24",
+      "condition": "clean",
+      "completion_tokens": 6538,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-23",
+      "condition": "self-doubt",
+      "completion_tokens": 5524,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-26",
+      "condition": "authority",
+      "completion_tokens": 1054,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-27",
+      "condition": "clean",
+      "completion_tokens": 4785,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-24",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-24",
+      "condition": "self-doubt",
+      "completion_tokens": 4728,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-26",
+      "condition": "self-doubt",
+      "completion_tokens": 796,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-25",
+      "condition": "authority",
+      "completion_tokens": 7091,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-28",
+      "condition": "clean",
+      "completion_tokens": 1567,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-25",
+      "condition": "self-doubt",
+      "completion_tokens": 3728,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-27",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-25",
+      "condition": "clean",
+      "completion_tokens": 4115,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-28",
+      "condition": "authority",
+      "completion_tokens": 5628,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-26",
+      "condition": "clean",
+      "completion_tokens": 653,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-28",
+      "condition": "self-doubt",
+      "completion_tokens": 2738,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-29",
+      "condition": "authority",
+      "completion_tokens": 2515,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-27",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-30",
+      "condition": "clean",
+      "completion_tokens": 6371,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-30",
+      "condition": "authority",
+      "completion_tokens": 6886,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-29",
+      "condition": "self-doubt",
+      "completion_tokens": 6823,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-29",
+      "condition": "clean",
+      "completion_tokens": 5727,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-30",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-31",
+      "condition": "authority",
+      "completion_tokens": 1434,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-34",
+      "condition": "clean",
+      "completion_tokens": 978,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-31",
+      "condition": "clean",
+      "completion_tokens": 3257,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-31",
+      "condition": "self-doubt",
+      "completion_tokens": 3095,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-33",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-32",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-35",
+      "condition": "clean",
+      "completion_tokens": 2180,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-34",
+      "condition": "authority",
+      "completion_tokens": 1315,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-34",
+      "condition": "self-doubt",
+      "completion_tokens": 1010,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-32",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-32",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-33",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-35",
+      "condition": "authority",
+      "completion_tokens": 1814,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-35",
+      "condition": "self-doubt",
+      "completion_tokens": 2388,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-33",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-36",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-36",
+      "condition": "self-doubt",
+      "completion_tokens": 7419,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-36",
+      "condition": "clean",
+      "completion_tokens": 4930,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-37",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-38",
+      "condition": "self-doubt",
+      "completion_tokens": 1117,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-38",
+      "condition": "authority",
+      "completion_tokens": 1139,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-38",
+      "condition": "clean",
+      "completion_tokens": 918,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-37",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-39",
+      "condition": "self-doubt",
+      "completion_tokens": 743,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-40",
+      "condition": "self-doubt",
+      "completion_tokens": 839,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-39",
+      "condition": "authority",
+      "completion_tokens": 802,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-40",
+      "condition": "clean",
+      "completion_tokens": 789,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-41",
+      "condition": "authority",
+      "completion_tokens": 1972,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-40",
+      "condition": "authority",
+      "completion_tokens": 515,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-39",
+      "condition": "clean",
+      "completion_tokens": 486,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-42",
+      "condition": "clean",
+      "completion_tokens": 6676,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-41",
+      "condition": "self-doubt",
+      "completion_tokens": 1459,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-41",
+      "condition": "clean",
+      "completion_tokens": 2751,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-37",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-44",
+      "condition": "authority",
+      "completion_tokens": 2077,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-43",
+      "condition": "self-doubt",
+      "completion_tokens": 849,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-42",
+      "condition": "self-doubt",
+      "completion_tokens": 2627,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-43",
+      "condition": "authority",
+      "completion_tokens": 980,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-42",
+      "condition": "authority",
+      "completion_tokens": 4711,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-44",
+      "condition": "self-doubt",
+      "completion_tokens": 1928,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-44",
+      "condition": "clean",
+      "completion_tokens": 2953,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-43",
+      "condition": "clean",
+      "completion_tokens": 697,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-45",
+      "condition": "clean",
+      "completion_tokens": 7147,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-45",
+      "condition": "authority",
+      "completion_tokens": 3344,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-46",
+      "condition": "clean",
+      "completion_tokens": 2950,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-46",
+      "condition": "authority",
+      "completion_tokens": 4752,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-47",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-45",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-46",
+      "condition": "self-doubt",
+      "completion_tokens": 3339,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-50",
+      "condition": "authority",
+      "completion_tokens": 2478,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-49",
+      "condition": "self-doubt",
+      "completion_tokens": 357,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-48",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-49",
+      "condition": "clean",
+      "completion_tokens": 332,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-50",
+      "condition": "clean",
+      "completion_tokens": 1140,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-47",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-48",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-49",
+      "condition": "authority",
+      "completion_tokens": 433,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-50",
+      "condition": "self-doubt",
+      "completion_tokens": 1293,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-47",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-48",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-51",
+      "condition": "authority",
+      "completion_tokens": 2321,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-52",
+      "condition": "authority",
+      "completion_tokens": 3404,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-51",
+      "condition": "self-doubt",
+      "completion_tokens": 1966,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-54",
+      "condition": "clean",
+      "completion_tokens": 1258,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-53",
+      "condition": "clean",
+      "completion_tokens": 2651,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-53",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-51",
+      "condition": "clean",
+      "completion_tokens": 2841,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-53",
+      "condition": "self-doubt",
+      "completion_tokens": 5348,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-55",
+      "condition": "clean",
+      "completion_tokens": 6552,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-52",
+      "condition": "clean",
+      "completion_tokens": 4278,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-54",
+      "condition": "authority",
+      "completion_tokens": 1634,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-52",
+      "condition": "self-doubt",
+      "completion_tokens": 5679,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-55",
+      "condition": "authority",
+      "completion_tokens": 3438,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-54",
+      "condition": "self-doubt",
+      "completion_tokens": 2930,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-57",
+      "condition": "clean",
+      "completion_tokens": 418,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-57",
+      "condition": "self-doubt",
+      "completion_tokens": 525,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-56",
+      "condition": "clean",
+      "completion_tokens": 4866,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-56",
+      "condition": "authority",
+      "completion_tokens": 5614,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-56",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-57",
+      "condition": "authority",
+      "completion_tokens": 1990,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-59",
+      "condition": "clean",
+      "completion_tokens": 944,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-58",
+      "condition": "self-doubt",
+      "completion_tokens": 1815,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-58",
+      "condition": "clean",
+      "completion_tokens": 1208,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-58",
+      "condition": "authority",
+      "completion_tokens": 4014,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-0",
+      "condition": "authority",
+      "completion_tokens": 2664,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-0",
+      "condition": "clean",
+      "completion_tokens": 435,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-55",
+      "condition": "self-doubt",
+      "completion_tokens": 7255,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-59",
+      "condition": "self-doubt",
+      "completion_tokens": 1360,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-1",
+      "condition": "clean",
+      "completion_tokens": 1365,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-0",
+      "condition": "self-doubt",
+      "completion_tokens": 1277,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-1",
+      "condition": "authority",
+      "completion_tokens": 5123,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-59",
+      "condition": "authority",
+      "completion_tokens": 2371,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-2",
+      "condition": "authority",
+      "completion_tokens": 2186,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-3",
+      "condition": "clean",
+      "completion_tokens": 396,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-2",
+      "condition": "clean",
+      "completion_tokens": 371,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-1",
+      "condition": "self-doubt",
+      "completion_tokens": 1774,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-4",
+      "condition": "self-doubt",
+      "completion_tokens": 1084,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-3",
+      "condition": "self-doubt",
+      "completion_tokens": 637,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-4",
+      "condition": "clean",
+      "completion_tokens": 448,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-5",
+      "condition": "self-doubt",
+      "completion_tokens": 472,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-2",
+      "condition": "self-doubt",
+      "completion_tokens": 338,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-5",
+      "condition": "clean",
+      "completion_tokens": 392,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-4",
+      "condition": "authority",
+      "completion_tokens": 1631,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-6",
+      "condition": "clean",
+      "completion_tokens": 676,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-3",
+      "condition": "authority",
+      "completion_tokens": 5349,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-5",
+      "condition": "authority",
+      "completion_tokens": 631,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-6",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-7",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-6",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-7",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-9",
+      "condition": "authority",
+      "completion_tokens": 4000,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-8",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-9",
+      "condition": "clean",
+      "completion_tokens": 731,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-8",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-9",
+      "condition": "self-doubt",
+      "completion_tokens": 1042,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-8",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-7",
+      "condition": "clean",
+      "completion_tokens": 2819,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-10",
+      "condition": "clean",
+      "completion_tokens": 8098,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-10",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-11",
+      "condition": "clean",
+      "completion_tokens": 1128,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-10",
+      "condition": "self-doubt",
+      "completion_tokens": 7717,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-11",
+      "condition": "self-doubt",
+      "completion_tokens": 1005,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-13",
+      "condition": "clean",
+      "completion_tokens": 2149,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-11",
+      "condition": "authority",
+      "completion_tokens": 5299,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-13",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-13",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-14",
+      "condition": "clean",
+      "completion_tokens": 654,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-12",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-15",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-14",
+      "condition": "authority",
+      "completion_tokens": 4813,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-14",
+      "condition": "self-doubt",
+      "completion_tokens": 2172,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-16",
+      "condition": "clean",
+      "completion_tokens": 993,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-16",
+      "condition": "self-doubt",
+      "completion_tokens": 545,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-16",
+      "condition": "authority",
+      "completion_tokens": 1177,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-17",
+      "condition": "clean",
+      "completion_tokens": 2926,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-17",
+      "condition": "authority",
+      "completion_tokens": 5108,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-17",
+      "condition": "self-doubt",
+      "completion_tokens": 3332,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-15",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-20",
+      "condition": "clean",
+      "completion_tokens": 738,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-19",
+      "condition": "clean",
+      "completion_tokens": 468,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-19",
+      "condition": "authority",
+      "completion_tokens": 1038,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-19",
+      "condition": "self-doubt",
+      "completion_tokens": 731,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-18",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-18",
+      "condition": "self-doubt",
+      "completion_tokens": 5719,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-20",
+      "condition": "self-doubt",
+      "completion_tokens": 7645,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-21",
+      "condition": "clean",
+      "completion_tokens": 5808,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-22",
+      "condition": "self-doubt",
+      "completion_tokens": 5982,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-22",
+      "condition": "clean",
+      "completion_tokens": 4353,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-21",
+      "condition": "self-doubt",
+      "completion_tokens": 5185,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-21",
+      "condition": "authority",
+      "completion_tokens": 7041,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-23",
+      "condition": "clean",
+      "completion_tokens": 1930,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-23",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-24",
+      "condition": "authority",
+      "completion_tokens": 5500,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-24",
+      "condition": "clean",
+      "completion_tokens": 3794,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-25",
+      "condition": "clean",
+      "completion_tokens": 1734,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-24",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-25",
+      "condition": "authority",
+      "completion_tokens": 5532,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-26",
+      "condition": "authority",
+      "completion_tokens": 2965,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-23",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-26",
+      "condition": "clean",
+      "completion_tokens": 2753,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-26",
+      "condition": "self-doubt",
+      "completion_tokens": 7845,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-27",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-27",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-28",
+      "condition": "clean",
+      "completion_tokens": 1303,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-28",
+      "condition": "authority",
+      "completion_tokens": 3878,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-28",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-29",
+      "condition": "clean",
+      "completion_tokens": 2562,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-29",
+      "condition": "self-doubt",
+      "completion_tokens": 2146,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-30",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-30",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-31",
+      "condition": "clean",
+      "completion_tokens": 4999,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-32",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-33",
+      "condition": "clean",
+      "completion_tokens": 6379,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-34",
+      "condition": "clean",
+      "completion_tokens": 1323,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-35",
+      "condition": "clean",
+      "completion_tokens": 696,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-36",
+      "condition": "clean",
+      "completion_tokens": 6879,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-37",
+      "condition": "clean",
+      "completion_tokens": 3063,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-38",
+      "condition": "clean",
+      "completion_tokens": 488,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-39",
+      "condition": "clean",
+      "completion_tokens": 467,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-40",
+      "condition": "clean",
+      "completion_tokens": 1124,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-41",
+      "condition": "clean",
+      "completion_tokens": 673,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-42",
+      "condition": "clean",
+      "completion_tokens": 5126,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-43",
+      "condition": "clean",
+      "completion_tokens": 1296,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-43",
+      "condition": "self-doubt",
+      "completion_tokens": 2675,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-44",
+      "condition": "clean",
+      "completion_tokens": 895,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-45",
+      "condition": "clean",
+      "completion_tokens": 1758,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-46",
+      "condition": "clean",
+      "completion_tokens": 714,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-47",
+      "condition": "clean",
+      "completion_tokens": 4006,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-47",
+      "condition": "authority",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-48",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-49",
+      "condition": "clean",
+      "completion_tokens": 242,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-50",
+      "condition": "clean",
+      "completion_tokens": 2126,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-51",
+      "condition": "clean",
+      "completion_tokens": 1265,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-52",
+      "condition": "clean",
+      "completion_tokens": 692,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-53",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-53",
+      "condition": "self-doubt",
+      "completion_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-54",
+      "condition": "clean",
+      "completion_tokens": 2131,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-55",
+      "condition": "clean",
+      "completion_tokens": 6339,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-56",
+      "condition": "clean",
+      "completion_tokens": 5210,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-57",
+      "condition": "clean",
+      "completion_tokens": 453,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-58",
+      "condition": "clean",
+      "completion_tokens": 844,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-59",
+      "condition": "clean",
+      "completion_tokens": 953,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-18",
+      "condition": "authority",
+      "completion_tokens": 6538,
+      "finish_reason": "stop",
+      "nonterm": false
+    }
+  ],
+  "new_calls": 65
+}

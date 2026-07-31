@@ -1,0 +1,1 @@
+{"content": "The sum is an alternating series from 1 to 100. We can group the terms into pairs:\n\n(1 - 2) + (3 - 4) + (5 - 6) + ... + (99 - 100)\n\nEach pair equals -1. Since there are 100 terms, there are 50 pairs.\n\n50 × (-1) = -50\n\nAnswer: -50", "finish_reason": "stop", "completion_tokens": 252, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

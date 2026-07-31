@@ -1,0 +1,1 @@
+{"content": "The total trip is 60 miles. The first stop is 20 miles from the start. The second stop is 15 miles before the end, so it is 60 - 15 = 45 miles from the start. The distance traveled between the first and second stops is 45 - 20 = 25 miles.\n\nAnswer: 25", "finish_reason": "stop", "completion_tokens": 456, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

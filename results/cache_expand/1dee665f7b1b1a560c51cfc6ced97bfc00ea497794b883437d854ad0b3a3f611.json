@@ -1,0 +1,1 @@
+{"content": "The point \\((a, b)\\) lies on the line \\(3x + 2y = 12\\), so its coordinates satisfy the equation:  \n\\[3a + 2b = 12\\]  \nSubstitute \\(a = 4\\):  \n\\[3(4) + 2b = 12\\]  \n\\[12 + 2b = 12\\]  \n\\[2b = 0\\]  \n\\[b = 0\\]  \n\nAnswer: 0", "finish_reason": "stop", "completion_tokens": 224, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

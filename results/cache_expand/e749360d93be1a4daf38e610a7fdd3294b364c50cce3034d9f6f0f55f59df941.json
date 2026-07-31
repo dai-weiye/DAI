@@ -1,0 +1,1 @@
+{"content": "The trader's total cost per bag is the purchase price plus transportation: $20 + $2 = $22.  \nThe selling price per bag is $30.  \nProfit per bag = $30 - $22 = $8.  \nTotal profit is $400, so the number of bags is $400 ÷ $8 = 50.\n\nAnswer: 50", "finish_reason": "stop", "completion_tokens": 227, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

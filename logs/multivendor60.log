@@ -1,0 +1,38 @@
+=== multi-vendor probe | GPQA | cap=8192 | 4 models x 60 items x 2 conditions = 480 calls ===
+  20/480 (0 new calls)
+  40/480 (0 new calls)
+  60/480 (10 new calls)
+  80/480 (31 new calls)
+  100/480 (51 new calls)
+  120/480 (60 new calls)
+  140/480 (60 new calls)
+  160/480 (60 new calls)
+  180/480 (71 new calls)
+  200/480 (91 new calls)
+  220/480 (111 new calls)
+  240/480 (120 new calls)
+  260/480 (121 new calls)
+  280/480 (121 new calls)
+  300/480 (133 new calls)
+  320/480 (153 new calls)
+  340/480 (173 new calls)
+  360/480 (182 new calls)
+    [warn] Kimi-K3: Connection error.
+  380/480 (196 new calls)
+  400/480 (210 new calls)
+    [warn] Kimi-K3: Connection error.
+  420/480 (221 new calls)
+  440/480 (241 new calls)
+    [warn] MiniMax-M2.7: Error code: 500 - {'error': {'message': 'Operation Failed (request id: 2026073120030150238818161831307)', 'typ
+  460/480 (261 new calls)
+  480/480 (270 new calls)
+
+==========================================================================
+model                  vendor                clean      adversarial   ampl.
+--------------------------------------------------------------------------
+claude-opus-4-8        Anthropic    1/60     2%      0/60     0%      --
+o3                     OpenAI      10/60    17%     12/60    20%    1.2x
+Kimi-K3                Moonshot     8/59    14%     10/59    17%    1.2x
+MiniMax-M2.7           MiniMax     10/60    17%     15/59    25%    1.5x
+==========================================================================
+new (billed) calls: 270   wrote results/multivendor_probe.json

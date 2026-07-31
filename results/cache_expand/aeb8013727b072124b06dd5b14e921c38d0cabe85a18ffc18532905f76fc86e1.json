@@ -1,0 +1,1 @@
+{"content": "Henry's total trip is 60 miles.  \nFirst stop: after 20 miles.  \nSecond stop: 15 miles before the end, so at 60 - 15 = 45 miles.  \nDistance traveled between stops: 45 - 20 = 25 miles.\n\nAnswer: 25", "finish_reason": "stop", "completion_tokens": 192, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

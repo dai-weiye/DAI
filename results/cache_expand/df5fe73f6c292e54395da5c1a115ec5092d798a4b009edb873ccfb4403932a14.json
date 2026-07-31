@@ -1,0 +1,1 @@
+{"content": "John has 3 children, and he buys 2 pairs of shoes for each child.  \nTotal pairs of shoes = 3 children × 2 pairs = 6 pairs.  \nEach pair costs $60, so total cost = 6 × $60 = $360.  \n\nAnswer: 360", "finish_reason": "stop", "completion_tokens": 169, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

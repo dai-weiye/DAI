@@ -1,0 +1,1 @@
+{"content": "Let Harald's sales be \\( H \\). Then Marilyn's sales are \\( 10H \\). Their combined sales are \\( H + 10H = 11H \\).  \nGiven \\( 11H = 88,000 \\), we find \\( H = \\frac{88,000}{11} = 8,000 \\).\n\nAnswer: 8000", "finish_reason": "stop", "completion_tokens": 176, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

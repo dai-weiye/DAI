@@ -1,0 +1,1 @@
+{"content": "99^2 = (100 - 1)^2 = 10000 - 200 + 1 = 9801.  \n9801 + 99 = 9900.  \n9900 + 1 = 9901.\n\nAnswer: 9901", "finish_reason": "stop", "completion_tokens": 271, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

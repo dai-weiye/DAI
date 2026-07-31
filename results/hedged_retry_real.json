@@ -1,0 +1,1075 @@
+{
+  "n_stalled": 60,
+  "n_dropped_api": 0,
+  "escaped_any": 24,
+  "escape_rate": 0.4,
+  "p_escape_attempt1": 0.3,
+  "p_escape_attempt2_given_still_stalled": 0.14285714285714285,
+  "independence_prediction_attempt1": 0.6667000000000001,
+  "correlated": true,
+  "records": [
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-1",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 755
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-4",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": false,
+          "completion_tokens": 5594
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 2
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-2",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 4546
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-5",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 1937
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-10",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-7",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 2008
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-12",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-18",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-23",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 845
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-27",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 1877
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-38",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-39",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-40",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-41",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-43",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 1742
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-44",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-45",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 4090
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-49",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 295
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-54",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-58",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gsm8k",
+      "id": "gsm8k-59",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 630
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-4",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 2361
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-9",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-10",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-19",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 7528
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-18",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-20",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": false,
+          "completion_tokens": 1880
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 2
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-29",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": false,
+          "completion_tokens": 7526
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 2
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-32",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-37",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 6923
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "math500",
+      "id": "math500-50",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-1",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": false,
+          "completion_tokens": 2477
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 2
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-3",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-7",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-8",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-12",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-14",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 1378
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-13",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-15",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-18",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-22",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-23",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 3403
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-27",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-29",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-31",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-30",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-32",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-33",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-37",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-36",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-42",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 7047
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-45",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-47",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-48",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-51",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-53",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-52",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": false,
+          "completion_tokens": 2603
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 2
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-55",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": false,
+          "completion_tokens": 8028
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 1
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-56",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": false,
+          "completion_tokens": 7650
+        }
+      ],
+      "escaped": true,
+      "escaped_on": 2
+    },
+    {
+      "dataset": "gpqa_diamond",
+      "id": "gpqa-59",
+      "condition": "adversarial",
+      "retries": [
+        {
+          "attempt": 1,
+          "nonterm": true,
+          "completion_tokens": 8192
+        },
+        {
+          "attempt": 2,
+          "nonterm": true,
+          "completion_tokens": 8192
+        }
+      ],
+      "escaped": false,
+      "escaped_on": null
+    }
+  ],
+  "stage_success_with_retry": 0.8000200000000001,
+  "completion_with_retry": {
+    "1": 0.8000200000000001,
+    "2": 0.6400320004000001,
+    "3": 0.5120384009600081,
+    "5": 0.32772096204805135
+  },
+  "completion_naive": {
+    "1": 0.6667000000000001,
+    "2": 0.4444888900000001,
+    "3": 0.2963407429630001,
+    "5": 0.13172016790139926
+  }
+}

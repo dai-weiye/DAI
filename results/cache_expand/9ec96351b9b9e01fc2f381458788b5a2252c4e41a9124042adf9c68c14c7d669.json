@@ -1,0 +1,1 @@
+{"content": "Dividing by a fraction is the same as multiplying by its reciprocal. The reciprocal of \\(\\frac{2}{3}\\) is \\(\\frac{3}{2}\\). Therefore, \\(10 \\div \\frac{2}{3} = 10 \\times \\frac{3}{2}\\).\n\nAnswer: \\(\\frac{3}{2}\\)", "finish_reason": "stop", "completion_tokens": 180, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

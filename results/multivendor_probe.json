@@ -1,0 +1,5500 @@
+{
+  "cap": 8192,
+  "n_requested": 60,
+  "models": {
+    "claude-opus-4-8": {
+      "vendor": "Anthropic",
+      "clean": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "lo": 0.002948083860873682,
+        "hi": 0.08855338226779477
+      },
+      "adversarial": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.06017393047793289
+      },
+      "multiplier": 0.0,
+      "median_ct_clean": 741,
+      "median_ct_adv": 833
+    },
+    "o3": {
+      "vendor": "OpenAI",
+      "clean": {
+        "k": 10,
+        "n": 60,
+        "rate": 0.16666666666666666,
+        "lo": 0.09313077201321032,
+        "hi": 0.28031851497207827
+      },
+      "adversarial": {
+        "k": 12,
+        "n": 60,
+        "rate": 0.2,
+        "lo": 0.11828389736858964,
+        "hi": 0.3178204609181701
+      },
+      "multiplier": 1.2000000000000002,
+      "median_ct_clean": 2651,
+      "median_ct_adv": 2173
+    },
+    "gpt-oss-120b": {
+      "vendor": "OpenAI (open-weight)",
+      "clean": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "lo": 0.002948083860873682,
+        "hi": 0.08855338226779477
+      },
+      "adversarial": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "lo": 0.002948083860873682,
+        "hi": 0.08855338226779477
+      },
+      "multiplier": 1.0,
+      "median_ct_clean": 1449,
+      "median_ct_adv": 1551
+    },
+    "Kimi-K3": {
+      "vendor": "Moonshot",
+      "clean": {
+        "k": 9,
+        "n": 60,
+        "rate": 0.15,
+        "lo": 0.08097349242295689,
+        "hi": 0.26114825891159615
+      },
+      "adversarial": {
+        "k": 10,
+        "n": 59,
+        "rate": 0.1694915254237288,
+        "lo": 0.0947573785633763,
+        "hi": 0.28463461654814215
+      },
+      "multiplier": 1.1299435028248588,
+      "median_ct_clean": 1758,
+      "median_ct_adv": 2942
+    },
+    "MiniMax-M2.7": {
+      "vendor": "MiniMax",
+      "clean": {
+        "k": 10,
+        "n": 60,
+        "rate": 0.16666666666666666,
+        "lo": 0.09313077201321032,
+        "hi": 0.28031851497207827
+      },
+      "adversarial": {
+        "k": 15,
+        "n": 60,
+        "rate": 0.25,
+        "lo": 0.1577638557841185,
+        "hi": 0.372323109454848
+      },
+      "multiplier": 1.5,
+      "median_ct_clean": 4316,
+      "median_ct_adv": 6623
+    }
+  },
+  "records": [
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-2",
+      "condition": "adversarial",
+      "completion_tokens": 338,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-3",
+      "condition": "clean",
+      "completion_tokens": 618,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-0",
+      "condition": "clean",
+      "completion_tokens": 592,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-2",
+      "condition": "clean",
+      "completion_tokens": 305,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-3",
+      "condition": "adversarial",
+      "completion_tokens": 339,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-1",
+      "condition": "clean",
+      "completion_tokens": 489,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-1",
+      "condition": "adversarial",
+      "completion_tokens": 798,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-0",
+      "condition": "adversarial",
+      "completion_tokens": 912,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-5",
+      "condition": "clean",
+      "completion_tokens": 814,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-4",
+      "condition": "adversarial",
+      "completion_tokens": 1279,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-5",
+      "condition": "adversarial",
+      "completion_tokens": 514,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-8",
+      "condition": "adversarial",
+      "completion_tokens": 1056,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-7",
+      "condition": "adversarial",
+      "completion_tokens": 950,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-6",
+      "condition": "clean",
+      "completion_tokens": 460,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-7",
+      "condition": "clean",
+      "completion_tokens": 780,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-4",
+      "condition": "clean",
+      "completion_tokens": 772,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-10",
+      "condition": "adversarial",
+      "completion_tokens": 1077,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-8",
+      "condition": "clean",
+      "completion_tokens": 856,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-9",
+      "condition": "adversarial",
+      "completion_tokens": 354,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-12",
+      "condition": "clean",
+      "completion_tokens": 1350,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-12",
+      "condition": "adversarial",
+      "completion_tokens": 1398,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-13",
+      "condition": "adversarial",
+      "completion_tokens": 844,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-10",
+      "condition": "clean",
+      "completion_tokens": 877,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-11",
+      "condition": "clean",
+      "completion_tokens": 713,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-13",
+      "condition": "clean",
+      "completion_tokens": 694,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-9",
+      "condition": "clean",
+      "completion_tokens": 404,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-17",
+      "condition": "adversarial",
+      "completion_tokens": 924,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-14",
+      "condition": "adversarial",
+      "completion_tokens": 814,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-14",
+      "condition": "clean",
+      "completion_tokens": 521,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-16",
+      "condition": "clean",
+      "completion_tokens": 591,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-11",
+      "condition": "adversarial",
+      "completion_tokens": 768,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-18",
+      "condition": "adversarial",
+      "completion_tokens": 1242,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-16",
+      "condition": "adversarial",
+      "completion_tokens": 631,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-20",
+      "condition": "clean",
+      "completion_tokens": 535,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-15",
+      "condition": "adversarial",
+      "completion_tokens": 1269,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-19",
+      "condition": "adversarial",
+      "completion_tokens": 581,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-6",
+      "condition": "adversarial",
+      "completion_tokens": 671,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-19",
+      "condition": "clean",
+      "completion_tokens": 526,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-15",
+      "condition": "clean",
+      "completion_tokens": 930,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-18",
+      "condition": "clean",
+      "completion_tokens": 1023,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-21",
+      "condition": "clean",
+      "completion_tokens": 439,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-17",
+      "condition": "clean",
+      "completion_tokens": 564,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-20",
+      "condition": "adversarial",
+      "completion_tokens": 839,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-22",
+      "condition": "clean",
+      "completion_tokens": 1021,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-23",
+      "condition": "adversarial",
+      "completion_tokens": 1206,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-23",
+      "condition": "clean",
+      "completion_tokens": 1278,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-22",
+      "condition": "adversarial",
+      "completion_tokens": 1380,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-25",
+      "condition": "clean",
+      "completion_tokens": 860,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-21",
+      "condition": "adversarial",
+      "completion_tokens": 647,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-29",
+      "condition": "clean",
+      "completion_tokens": 333,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-24",
+      "condition": "clean",
+      "completion_tokens": 1251,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-28",
+      "condition": "clean",
+      "completion_tokens": 838,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-24",
+      "condition": "adversarial",
+      "completion_tokens": 1323,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-25",
+      "condition": "adversarial",
+      "completion_tokens": 833,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-30",
+      "condition": "clean",
+      "completion_tokens": 1299,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-28",
+      "condition": "adversarial",
+      "completion_tokens": 1264,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-26",
+      "condition": "clean",
+      "completion_tokens": 634,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-26",
+      "condition": "adversarial",
+      "completion_tokens": 774,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-29",
+      "condition": "adversarial",
+      "completion_tokens": 666,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-27",
+      "condition": "clean",
+      "completion_tokens": 1236,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-31",
+      "condition": "clean",
+      "completion_tokens": 679,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-30",
+      "condition": "adversarial",
+      "completion_tokens": 1685,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-27",
+      "condition": "adversarial",
+      "completion_tokens": 1090,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-33",
+      "condition": "clean",
+      "completion_tokens": 1398,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-35",
+      "condition": "adversarial",
+      "completion_tokens": 817,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-32",
+      "condition": "adversarial",
+      "completion_tokens": 480,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-34",
+      "condition": "adversarial",
+      "completion_tokens": 926,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-33",
+      "condition": "adversarial",
+      "completion_tokens": 1808,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-34",
+      "condition": "clean",
+      "completion_tokens": 727,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-36",
+      "condition": "adversarial",
+      "completion_tokens": 1012,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-38",
+      "condition": "clean",
+      "completion_tokens": 616,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-37",
+      "condition": "adversarial",
+      "completion_tokens": 1454,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-35",
+      "condition": "clean",
+      "completion_tokens": 765,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-32",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-42",
+      "condition": "clean",
+      "completion_tokens": 930,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-38",
+      "condition": "adversarial",
+      "completion_tokens": 806,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-31",
+      "condition": "adversarial",
+      "completion_tokens": 850,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-36",
+      "condition": "clean",
+      "completion_tokens": 806,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-42",
+      "condition": "adversarial",
+      "completion_tokens": 1176,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-37",
+      "condition": "clean",
+      "completion_tokens": 1008,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-40",
+      "condition": "adversarial",
+      "completion_tokens": 163,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-43",
+      "condition": "clean",
+      "completion_tokens": 721,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-40",
+      "condition": "clean",
+      "completion_tokens": 167,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-39",
+      "condition": "clean",
+      "completion_tokens": 459,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-44",
+      "condition": "clean",
+      "completion_tokens": 361,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-41",
+      "condition": "adversarial",
+      "completion_tokens": 293,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-46",
+      "condition": "adversarial",
+      "completion_tokens": 802,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-45",
+      "condition": "clean",
+      "completion_tokens": 893,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-45",
+      "condition": "adversarial",
+      "completion_tokens": 1227,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-39",
+      "condition": "adversarial",
+      "completion_tokens": 163,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-43",
+      "condition": "adversarial",
+      "completion_tokens": 874,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-44",
+      "condition": "adversarial",
+      "completion_tokens": 538,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-48",
+      "condition": "adversarial",
+      "completion_tokens": 1526,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-47",
+      "condition": "clean",
+      "completion_tokens": 741,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-48",
+      "condition": "clean",
+      "completion_tokens": 1443,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-41",
+      "condition": "clean",
+      "completion_tokens": 246,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-52",
+      "condition": "clean",
+      "completion_tokens": 811,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-47",
+      "condition": "adversarial",
+      "completion_tokens": 993,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-50",
+      "condition": "clean",
+      "completion_tokens": 774,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-52",
+      "condition": "adversarial",
+      "completion_tokens": 1154,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-51",
+      "condition": "clean",
+      "completion_tokens": 592,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-46",
+      "condition": "clean",
+      "completion_tokens": 894,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-49",
+      "condition": "clean",
+      "completion_tokens": 452,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-51",
+      "condition": "adversarial",
+      "completion_tokens": 318,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-49",
+      "condition": "adversarial",
+      "completion_tokens": 450,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-54",
+      "condition": "clean",
+      "completion_tokens": 603,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-56",
+      "condition": "adversarial",
+      "completion_tokens": 789,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-57",
+      "condition": "adversarial",
+      "completion_tokens": 748,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-57",
+      "condition": "clean",
+      "completion_tokens": 615,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-55",
+      "condition": "adversarial",
+      "completion_tokens": 772,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-50",
+      "condition": "adversarial",
+      "completion_tokens": 752,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-53",
+      "condition": "adversarial",
+      "completion_tokens": 1293,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-54",
+      "condition": "adversarial",
+      "completion_tokens": 561,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-55",
+      "condition": "clean",
+      "completion_tokens": 777,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-56",
+      "condition": "clean",
+      "completion_tokens": 924,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-58",
+      "condition": "adversarial",
+      "completion_tokens": 769,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-0",
+      "condition": "clean",
+      "completion_tokens": 714,
+      "reasoning_tokens": 384,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-59",
+      "condition": "clean",
+      "completion_tokens": 684,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-53",
+      "condition": "clean",
+      "completion_tokens": 1022,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-58",
+      "condition": "clean",
+      "completion_tokens": 567,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-3",
+      "condition": "clean",
+      "completion_tokens": 1032,
+      "reasoning_tokens": 768,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "id": "gpqa-59",
+      "condition": "adversarial",
+      "completion_tokens": 741,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-2",
+      "condition": "clean",
+      "completion_tokens": 750,
+      "reasoning_tokens": 448,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-1",
+      "condition": "adversarial",
+      "completion_tokens": 4375,
+      "reasoning_tokens": 4032,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-6",
+      "condition": "adversarial",
+      "completion_tokens": 885,
+      "reasoning_tokens": 512,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-0",
+      "condition": "adversarial",
+      "completion_tokens": 1205,
+      "reasoning_tokens": 768,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-2",
+      "condition": "adversarial",
+      "completion_tokens": 1340,
+      "reasoning_tokens": 896,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-4",
+      "condition": "adversarial",
+      "completion_tokens": 1396,
+      "reasoning_tokens": 832,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-5",
+      "condition": "clean",
+      "completion_tokens": 1178,
+      "reasoning_tokens": 768,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-1",
+      "condition": "clean",
+      "completion_tokens": 2151,
+      "reasoning_tokens": 1856,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-3",
+      "condition": "adversarial",
+      "completion_tokens": 1232,
+      "reasoning_tokens": 832,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-4",
+      "condition": "clean",
+      "completion_tokens": 1132,
+      "reasoning_tokens": 576,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-5",
+      "condition": "adversarial",
+      "completion_tokens": 1052,
+      "reasoning_tokens": 640,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-8",
+      "condition": "adversarial",
+      "completion_tokens": 6296,
+      "reasoning_tokens": 6016,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-6",
+      "condition": "clean",
+      "completion_tokens": 687,
+      "reasoning_tokens": 320,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-9",
+      "condition": "clean",
+      "completion_tokens": 557,
+      "reasoning_tokens": 320,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-10",
+      "condition": "adversarial",
+      "completion_tokens": 5888,
+      "reasoning_tokens": 5568,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-8",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-9",
+      "condition": "adversarial",
+      "completion_tokens": 1037,
+      "reasoning_tokens": 576,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-7",
+      "condition": "clean",
+      "completion_tokens": 2762,
+      "reasoning_tokens": 2240,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-13",
+      "condition": "adversarial",
+      "completion_tokens": 2580,
+      "reasoning_tokens": 2432,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-12",
+      "condition": "adversarial",
+      "completion_tokens": 5549,
+      "reasoning_tokens": 4928,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-13",
+      "condition": "clean",
+      "completion_tokens": 1055,
+      "reasoning_tokens": 768,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-16",
+      "condition": "clean",
+      "completion_tokens": 1012,
+      "reasoning_tokens": 704,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-11",
+      "condition": "clean",
+      "completion_tokens": 1552,
+      "reasoning_tokens": 1088,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-14",
+      "condition": "adversarial",
+      "completion_tokens": 1266,
+      "reasoning_tokens": 768,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-16",
+      "condition": "adversarial",
+      "completion_tokens": 994,
+      "reasoning_tokens": 576,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-17",
+      "condition": "clean",
+      "completion_tokens": 1426,
+      "reasoning_tokens": 896,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-19",
+      "condition": "clean",
+      "completion_tokens": 294,
+      "reasoning_tokens": 64,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-7",
+      "condition": "adversarial",
+      "completion_tokens": 4060,
+      "reasoning_tokens": 3712,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-12",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-19",
+      "condition": "adversarial",
+      "completion_tokens": 613,
+      "reasoning_tokens": 384,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-15",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-15",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-17",
+      "condition": "adversarial",
+      "completion_tokens": 1791,
+      "reasoning_tokens": 1152,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-20",
+      "condition": "clean",
+      "completion_tokens": 2175,
+      "reasoning_tokens": 1792,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-21",
+      "condition": "clean",
+      "completion_tokens": 1529,
+      "reasoning_tokens": 1280,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-14",
+      "condition": "clean",
+      "completion_tokens": 948,
+      "reasoning_tokens": 576,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-11",
+      "condition": "adversarial",
+      "completion_tokens": 1679,
+      "reasoning_tokens": 1152,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-10",
+      "condition": "clean",
+      "completion_tokens": 2764,
+      "reasoning_tokens": 2560,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-18",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-23",
+      "condition": "clean",
+      "completion_tokens": 3124,
+      "reasoning_tokens": 2496,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-21",
+      "condition": "adversarial",
+      "completion_tokens": 1198,
+      "reasoning_tokens": 960,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-18",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-20",
+      "condition": "adversarial",
+      "completion_tokens": 1524,
+      "reasoning_tokens": 1088,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-22",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-22",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-25",
+      "condition": "clean",
+      "completion_tokens": 4115,
+      "reasoning_tokens": 3648,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-24",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-26",
+      "condition": "adversarial",
+      "completion_tokens": 666,
+      "reasoning_tokens": 448,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-24",
+      "condition": "clean",
+      "completion_tokens": 6538,
+      "reasoning_tokens": 6144,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-25",
+      "condition": "adversarial",
+      "completion_tokens": 3378,
+      "reasoning_tokens": 2752,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-27",
+      "condition": "clean",
+      "completion_tokens": 4785,
+      "reasoning_tokens": 4288,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-23",
+      "condition": "adversarial",
+      "completion_tokens": 3417,
+      "reasoning_tokens": 2752,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-26",
+      "condition": "clean",
+      "completion_tokens": 653,
+      "reasoning_tokens": 448,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-29",
+      "condition": "clean",
+      "completion_tokens": 5727,
+      "reasoning_tokens": 5504,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-28",
+      "condition": "clean",
+      "completion_tokens": 1567,
+      "reasoning_tokens": 1216,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-28",
+      "condition": "adversarial",
+      "completion_tokens": 2173,
+      "reasoning_tokens": 1728,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-27",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-29",
+      "condition": "adversarial",
+      "completion_tokens": 948,
+      "reasoning_tokens": 640,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-30",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-35",
+      "condition": "clean",
+      "completion_tokens": 2180,
+      "reasoning_tokens": 1728,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-31",
+      "condition": "clean",
+      "completion_tokens": 3257,
+      "reasoning_tokens": 2880,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-30",
+      "condition": "clean",
+      "completion_tokens": 6371,
+      "reasoning_tokens": 5824,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-33",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-36",
+      "condition": "clean",
+      "completion_tokens": 4930,
+      "reasoning_tokens": 4480,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-38",
+      "condition": "clean",
+      "completion_tokens": 918,
+      "reasoning_tokens": 576,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-32",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-35",
+      "condition": "adversarial",
+      "completion_tokens": 1483,
+      "reasoning_tokens": 1088,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-32",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-37",
+      "condition": "adversarial",
+      "completion_tokens": 6313,
+      "reasoning_tokens": 6016,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-34",
+      "condition": "adversarial",
+      "completion_tokens": 1001,
+      "reasoning_tokens": 640,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-34",
+      "condition": "clean",
+      "completion_tokens": 978,
+      "reasoning_tokens": 640,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-33",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-39",
+      "condition": "clean",
+      "completion_tokens": 486,
+      "reasoning_tokens": 256,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-38",
+      "condition": "adversarial",
+      "completion_tokens": 1343,
+      "reasoning_tokens": 1024,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-37",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-36",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-31",
+      "condition": "adversarial",
+      "completion_tokens": 2257,
+      "reasoning_tokens": 1920,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-40",
+      "condition": "adversarial",
+      "completion_tokens": 1286,
+      "reasoning_tokens": 1088,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-40",
+      "condition": "clean",
+      "completion_tokens": 789,
+      "reasoning_tokens": 640,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-39",
+      "condition": "adversarial",
+      "completion_tokens": 654,
+      "reasoning_tokens": 448,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-42",
+      "condition": "clean",
+      "completion_tokens": 6676,
+      "reasoning_tokens": 6400,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-42",
+      "condition": "adversarial",
+      "completion_tokens": 6548,
+      "reasoning_tokens": 6016,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-41",
+      "condition": "adversarial",
+      "completion_tokens": 2884,
+      "reasoning_tokens": 2304,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-43",
+      "condition": "clean",
+      "completion_tokens": 697,
+      "reasoning_tokens": 384,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-41",
+      "condition": "clean",
+      "completion_tokens": 2751,
+      "reasoning_tokens": 2368,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-44",
+      "condition": "adversarial",
+      "completion_tokens": 1464,
+      "reasoning_tokens": 1024,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-45",
+      "condition": "clean",
+      "completion_tokens": 7147,
+      "reasoning_tokens": 6720,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-46",
+      "condition": "clean",
+      "completion_tokens": 2950,
+      "reasoning_tokens": 2304,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-47",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-46",
+      "condition": "adversarial",
+      "completion_tokens": 3490,
+      "reasoning_tokens": 2944,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-49",
+      "condition": "clean",
+      "completion_tokens": 332,
+      "reasoning_tokens": 192,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-47",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-43",
+      "condition": "adversarial",
+      "completion_tokens": 734,
+      "reasoning_tokens": 384,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-48",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-45",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-48",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 8192,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-44",
+      "condition": "clean",
+      "completion_tokens": 2953,
+      "reasoning_tokens": 2496,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-50",
+      "condition": "clean",
+      "completion_tokens": 1140,
+      "reasoning_tokens": 832,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-49",
+      "condition": "adversarial",
+      "completion_tokens": 705,
+      "reasoning_tokens": 512,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-50",
+      "condition": "adversarial",
+      "completion_tokens": 5084,
+      "reasoning_tokens": 4672,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-54",
+      "condition": "clean",
+      "completion_tokens": 1258,
+      "reasoning_tokens": 960,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-55",
+      "condition": "clean",
+      "completion_tokens": 6552,
+      "reasoning_tokens": 5888,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-51",
+      "condition": "clean",
+      "completion_tokens": 2841,
+      "reasoning_tokens": 2304,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-51",
+      "condition": "adversarial",
+      "completion_tokens": 1979,
+      "reasoning_tokens": 1280,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-56",
+      "condition": "adversarial",
+      "completion_tokens": 5308,
+      "reasoning_tokens": 4608,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-53",
+      "condition": "adversarial",
+      "completion_tokens": 7337,
+      "reasoning_tokens": 6976,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-57",
+      "condition": "clean",
+      "completion_tokens": 418,
+      "reasoning_tokens": 192,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-53",
+      "condition": "clean",
+      "completion_tokens": 2651,
+      "reasoning_tokens": 2048,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-52",
+      "condition": "clean",
+      "completion_tokens": 4278,
+      "reasoning_tokens": 3840,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-56",
+      "condition": "clean",
+      "completion_tokens": 4866,
+      "reasoning_tokens": 4224,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-57",
+      "condition": "adversarial",
+      "completion_tokens": 685,
+      "reasoning_tokens": 448,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-58",
+      "condition": "adversarial",
+      "completion_tokens": 1369,
+      "reasoning_tokens": 896,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-58",
+      "condition": "clean",
+      "completion_tokens": 1208,
+      "reasoning_tokens": 704,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-54",
+      "condition": "adversarial",
+      "completion_tokens": 2066,
+      "reasoning_tokens": 1728,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-55",
+      "condition": "adversarial",
+      "completion_tokens": 4615,
+      "reasoning_tokens": 3968,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-52",
+      "condition": "adversarial",
+      "completion_tokens": 1809,
+      "reasoning_tokens": 1408,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-59",
+      "condition": "adversarial",
+      "completion_tokens": 1330,
+      "reasoning_tokens": 960,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "o3",
+      "id": "gpqa-59",
+      "condition": "clean",
+      "completion_tokens": 944,
+      "reasoning_tokens": 576,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-3",
+      "condition": "clean",
+      "completion_tokens": 904,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-0",
+      "condition": "clean",
+      "completion_tokens": 880,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-3",
+      "condition": "adversarial",
+      "completion_tokens": 798,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-4",
+      "condition": "adversarial",
+      "completion_tokens": 949,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-5",
+      "condition": "clean",
+      "completion_tokens": 1309,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-2",
+      "condition": "clean",
+      "completion_tokens": 722,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-0",
+      "condition": "adversarial",
+      "completion_tokens": 1247,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-5",
+      "condition": "adversarial",
+      "completion_tokens": 1434,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-6",
+      "condition": "clean",
+      "completion_tokens": 767,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-2",
+      "condition": "adversarial",
+      "completion_tokens": 1042,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-9",
+      "condition": "clean",
+      "completion_tokens": 408,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-4",
+      "condition": "clean",
+      "completion_tokens": 1215,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-9",
+      "condition": "adversarial",
+      "completion_tokens": 430,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-7",
+      "condition": "clean",
+      "completion_tokens": 1610,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-6",
+      "condition": "adversarial",
+      "completion_tokens": 1331,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-10",
+      "condition": "clean",
+      "completion_tokens": 944,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-1",
+      "condition": "clean",
+      "completion_tokens": 1913,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-7",
+      "condition": "adversarial",
+      "completion_tokens": 1737,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-11",
+      "condition": "clean",
+      "completion_tokens": 1092,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-8",
+      "condition": "clean",
+      "completion_tokens": 1692,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-11",
+      "condition": "adversarial",
+      "completion_tokens": 1338,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-10",
+      "condition": "adversarial",
+      "completion_tokens": 1090,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-8",
+      "condition": "adversarial",
+      "completion_tokens": 2350,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-14",
+      "condition": "adversarial",
+      "completion_tokens": 1059,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-14",
+      "condition": "clean",
+      "completion_tokens": 1406,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-13",
+      "condition": "adversarial",
+      "completion_tokens": 1007,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-13",
+      "condition": "clean",
+      "completion_tokens": 1198,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-16",
+      "condition": "clean",
+      "completion_tokens": 1199,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-19",
+      "condition": "clean",
+      "completion_tokens": 579,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-1",
+      "condition": "adversarial",
+      "completion_tokens": 4159,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-16",
+      "condition": "adversarial",
+      "completion_tokens": 1216,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-19",
+      "condition": "adversarial",
+      "completion_tokens": 748,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-17",
+      "condition": "clean",
+      "completion_tokens": 1540,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-15",
+      "condition": "clean",
+      "completion_tokens": 2538,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-12",
+      "condition": "clean",
+      "completion_tokens": 3801,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-12",
+      "condition": "adversarial",
+      "completion_tokens": 3577,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-21",
+      "condition": "clean",
+      "completion_tokens": 657,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-17",
+      "condition": "adversarial",
+      "completion_tokens": 1486,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-20",
+      "condition": "adversarial",
+      "completion_tokens": 1288,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-21",
+      "condition": "adversarial",
+      "completion_tokens": 809,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-20",
+      "condition": "clean",
+      "completion_tokens": 1383,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-22",
+      "condition": "adversarial",
+      "completion_tokens": 2743,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-26",
+      "condition": "clean",
+      "completion_tokens": 742,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-26",
+      "condition": "adversarial",
+      "completion_tokens": 655,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-18",
+      "condition": "clean",
+      "completion_tokens": 5592,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-22",
+      "condition": "clean",
+      "completion_tokens": 2960,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-25",
+      "condition": "clean",
+      "completion_tokens": 3682,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-24",
+      "condition": "adversarial",
+      "completion_tokens": 4322,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-15",
+      "condition": "adversarial",
+      "completion_tokens": 5329,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-23",
+      "condition": "adversarial",
+      "completion_tokens": 3804,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-18",
+      "condition": "adversarial",
+      "completion_tokens": 5115,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-28",
+      "condition": "adversarial",
+      "completion_tokens": 1347,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-25",
+      "condition": "adversarial",
+      "completion_tokens": 3386,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-29",
+      "condition": "clean",
+      "completion_tokens": 1102,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-24",
+      "condition": "clean",
+      "completion_tokens": 4220,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-29",
+      "condition": "adversarial",
+      "completion_tokens": 1958,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-31",
+      "condition": "clean",
+      "completion_tokens": 1351,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-30",
+      "condition": "clean",
+      "completion_tokens": 2181,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-31",
+      "condition": "adversarial",
+      "completion_tokens": 1668,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-27",
+      "condition": "clean",
+      "completion_tokens": 4268,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-34",
+      "condition": "adversarial",
+      "completion_tokens": 891,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-30",
+      "condition": "adversarial",
+      "completion_tokens": 2146,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-34",
+      "condition": "clean",
+      "completion_tokens": 999,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-32",
+      "condition": "clean",
+      "completion_tokens": 2378,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-35",
+      "condition": "clean",
+      "completion_tokens": 1005,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-27",
+      "condition": "adversarial",
+      "completion_tokens": 4293,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-35",
+      "condition": "adversarial",
+      "completion_tokens": 1053,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-23",
+      "condition": "clean",
+      "completion_tokens": 6839,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-39",
+      "condition": "clean",
+      "completion_tokens": 260,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-32",
+      "condition": "adversarial",
+      "completion_tokens": 3202,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-39",
+      "condition": "adversarial",
+      "completion_tokens": 478,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-38",
+      "condition": "clean",
+      "completion_tokens": 999,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-28",
+      "condition": "clean",
+      "completion_tokens": 4675,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-38",
+      "condition": "adversarial",
+      "completion_tokens": 842,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-40",
+      "condition": "adversarial",
+      "completion_tokens": 417,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-40",
+      "condition": "clean",
+      "completion_tokens": 437,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-41",
+      "condition": "adversarial",
+      "completion_tokens": 1092,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-43",
+      "condition": "clean",
+      "completion_tokens": 712,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-43",
+      "condition": "adversarial",
+      "completion_tokens": 706,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-41",
+      "condition": "clean",
+      "completion_tokens": 1468,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-42",
+      "condition": "adversarial",
+      "completion_tokens": 2176,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-42",
+      "condition": "clean",
+      "completion_tokens": 2593,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-36",
+      "condition": "clean",
+      "completion_tokens": 4481,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-33",
+      "condition": "clean",
+      "completion_tokens": 6479,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-44",
+      "condition": "adversarial",
+      "completion_tokens": 1999,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-44",
+      "condition": "clean",
+      "completion_tokens": 1651,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-46",
+      "condition": "clean",
+      "completion_tokens": 1449,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-37",
+      "condition": "clean",
+      "completion_tokens": 4610,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-37",
+      "condition": "adversarial",
+      "completion_tokens": 4887,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-49",
+      "condition": "clean",
+      "completion_tokens": 407,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-45",
+      "condition": "clean",
+      "completion_tokens": 2697,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-45",
+      "condition": "adversarial",
+      "completion_tokens": 2767,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-50",
+      "condition": "clean",
+      "completion_tokens": 927,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-50",
+      "condition": "adversarial",
+      "completion_tokens": 892,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-49",
+      "condition": "adversarial",
+      "completion_tokens": 670,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-47",
+      "condition": "clean",
+      "completion_tokens": 3443,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-33",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-47",
+      "condition": "adversarial",
+      "completion_tokens": 4059,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-46",
+      "condition": "adversarial",
+      "completion_tokens": 2079,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-52",
+      "condition": "adversarial",
+      "completion_tokens": 1551,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-36",
+      "condition": "adversarial",
+      "completion_tokens": 7257,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-52",
+      "condition": "clean",
+      "completion_tokens": 1439,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-54",
+      "condition": "clean",
+      "completion_tokens": 1345,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-51",
+      "condition": "adversarial",
+      "completion_tokens": 2593,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-53",
+      "condition": "adversarial",
+      "completion_tokens": 2872,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-53",
+      "condition": "clean",
+      "completion_tokens": 2151,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-57",
+      "condition": "clean",
+      "completion_tokens": 474,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-54",
+      "condition": "adversarial",
+      "completion_tokens": 1741,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-57",
+      "condition": "adversarial",
+      "completion_tokens": 641,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-0",
+      "condition": "clean",
+      "completion_tokens": 435,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-0",
+      "condition": "adversarial",
+      "completion_tokens": 1230,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-1",
+      "condition": "clean",
+      "completion_tokens": 1365,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-1",
+      "condition": "adversarial",
+      "completion_tokens": 1420,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-2",
+      "condition": "clean",
+      "completion_tokens": 371,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-2",
+      "condition": "adversarial",
+      "completion_tokens": 460,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-3",
+      "condition": "clean",
+      "completion_tokens": 396,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-3",
+      "condition": "adversarial",
+      "completion_tokens": 1059,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-4",
+      "condition": "clean",
+      "completion_tokens": 448,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-4",
+      "condition": "adversarial",
+      "completion_tokens": 985,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-5",
+      "condition": "clean",
+      "completion_tokens": 392,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-5",
+      "condition": "adversarial",
+      "completion_tokens": 497,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-6",
+      "condition": "clean",
+      "completion_tokens": 676,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-6",
+      "condition": "adversarial",
+      "completion_tokens": 1598,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-7",
+      "condition": "clean",
+      "completion_tokens": 2819,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-7",
+      "condition": "adversarial",
+      "completion_tokens": 5391,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-8",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-8",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-9",
+      "condition": "clean",
+      "completion_tokens": 731,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-9",
+      "condition": "adversarial",
+      "completion_tokens": 928,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-10",
+      "condition": "clean",
+      "completion_tokens": 8098,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-10",
+      "condition": "adversarial",
+      "completion_tokens": 7578,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-11",
+      "condition": "clean",
+      "completion_tokens": 1128,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-11",
+      "condition": "adversarial",
+      "completion_tokens": 795,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-12",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-12",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-13",
+      "condition": "clean",
+      "completion_tokens": 2149,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-13",
+      "condition": "adversarial",
+      "completion_tokens": 2013,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-14",
+      "condition": "clean",
+      "completion_tokens": 654,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-14",
+      "condition": "adversarial",
+      "completion_tokens": 948,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-15",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-15",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-16",
+      "condition": "clean",
+      "completion_tokens": 993,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-16",
+      "condition": "adversarial",
+      "completion_tokens": 802,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-17",
+      "condition": "clean",
+      "completion_tokens": 2926,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-17",
+      "condition": "adversarial",
+      "completion_tokens": 2942,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-18",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-18",
+      "condition": "adversarial",
+      "completion_tokens": 4955,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-19",
+      "condition": "clean",
+      "completion_tokens": 468,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-19",
+      "condition": "adversarial",
+      "completion_tokens": 912,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-20",
+      "condition": "clean",
+      "completion_tokens": 738,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-20",
+      "condition": "adversarial",
+      "completion_tokens": 7550,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-21",
+      "condition": "clean",
+      "completion_tokens": 5808,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-21",
+      "condition": "adversarial",
+      "completion_tokens": 3631,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-22",
+      "condition": "clean",
+      "completion_tokens": 4353,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-22",
+      "condition": "adversarial",
+      "completion_tokens": 4465,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-23",
+      "condition": "clean",
+      "completion_tokens": 1930,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-23",
+      "condition": "adversarial",
+      "completion_tokens": 5732,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-24",
+      "condition": "clean",
+      "completion_tokens": 3794,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-24",
+      "condition": "adversarial",
+      "completion_tokens": 3173,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-25",
+      "condition": "clean",
+      "completion_tokens": 1734,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-25",
+      "condition": "adversarial",
+      "completion_tokens": 2771,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-26",
+      "condition": "clean",
+      "completion_tokens": 2753,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-26",
+      "condition": "adversarial",
+      "completion_tokens": 1436,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-51",
+      "condition": "clean",
+      "completion_tokens": 3358,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-27",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-28",
+      "condition": "clean",
+      "completion_tokens": 1303,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-28",
+      "condition": "adversarial",
+      "completion_tokens": 7139,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-29",
+      "condition": "clean",
+      "completion_tokens": 2562,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-29",
+      "condition": "adversarial",
+      "completion_tokens": 2668,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-30",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-30",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-31",
+      "condition": "clean",
+      "completion_tokens": 4999,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-31",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-32",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-32",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-33",
+      "condition": "clean",
+      "completion_tokens": 6379,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-33",
+      "condition": "adversarial",
+      "completion_tokens": 7936,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-34",
+      "condition": "clean",
+      "completion_tokens": 1323,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-34",
+      "condition": "adversarial",
+      "completion_tokens": 5141,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-35",
+      "condition": "clean",
+      "completion_tokens": 696,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-35",
+      "condition": "adversarial",
+      "completion_tokens": 2285,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-36",
+      "condition": "clean",
+      "completion_tokens": 6879,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-36",
+      "condition": "adversarial",
+      "completion_tokens": 2855,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-37",
+      "condition": "clean",
+      "completion_tokens": 3063,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-37",
+      "condition": "adversarial",
+      "completion_tokens": 7445,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-38",
+      "condition": "clean",
+      "completion_tokens": 488,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-38",
+      "condition": "adversarial",
+      "completion_tokens": 2010,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-39",
+      "condition": "clean",
+      "completion_tokens": 467,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-39",
+      "condition": "adversarial",
+      "completion_tokens": 271,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-40",
+      "condition": "clean",
+      "completion_tokens": 1124,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-40",
+      "condition": "adversarial",
+      "completion_tokens": 590,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-41",
+      "condition": "clean",
+      "completion_tokens": 673,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-41",
+      "condition": "adversarial",
+      "completion_tokens": 1347,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-42",
+      "condition": "clean",
+      "completion_tokens": 5126,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-42",
+      "condition": "adversarial",
+      "completion_tokens": 3053,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-43",
+      "condition": "clean",
+      "completion_tokens": 1296,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-43",
+      "condition": "adversarial",
+      "completion_tokens": 4907,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-44",
+      "condition": "clean",
+      "completion_tokens": 895,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-44",
+      "condition": "adversarial",
+      "completion_tokens": 676,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-45",
+      "condition": "clean",
+      "completion_tokens": 1758,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-55",
+      "condition": "clean",
+      "completion_tokens": 1962,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-46",
+      "condition": "clean",
+      "completion_tokens": 714,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-46",
+      "condition": "adversarial",
+      "completion_tokens": 4036,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-47",
+      "condition": "clean",
+      "completion_tokens": 4006,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-47",
+      "condition": "adversarial",
+      "completion_tokens": 7497,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-48",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-48",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-49",
+      "condition": "clean",
+      "completion_tokens": 242,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-49",
+      "condition": "adversarial",
+      "completion_tokens": 747,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-50",
+      "condition": "clean",
+      "completion_tokens": 2126,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-50",
+      "condition": "adversarial",
+      "completion_tokens": 2848,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-51",
+      "condition": "clean",
+      "completion_tokens": 1265,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-51",
+      "condition": "adversarial",
+      "completion_tokens": 3143,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-52",
+      "condition": "clean",
+      "completion_tokens": 692,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-52",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-53",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-53",
+      "condition": "adversarial",
+      "completion_tokens": 8005,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-54",
+      "condition": "clean",
+      "completion_tokens": 2131,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-54",
+      "condition": "adversarial",
+      "completion_tokens": 3330,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-55",
+      "condition": "clean",
+      "completion_tokens": 6339,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-55",
+      "condition": "adversarial",
+      "completion_tokens": 2856,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-56",
+      "condition": "clean",
+      "completion_tokens": 5210,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-56",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-57",
+      "condition": "clean",
+      "completion_tokens": 453,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-57",
+      "condition": "adversarial",
+      "completion_tokens": 347,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-58",
+      "condition": "clean",
+      "completion_tokens": 844,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-58",
+      "condition": "adversarial",
+      "completion_tokens": 826,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-59",
+      "condition": "clean",
+      "completion_tokens": 953,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-59",
+      "condition": "adversarial",
+      "completion_tokens": 1989,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-0",
+      "condition": "clean",
+      "completion_tokens": 1560,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-0",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-1",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-1",
+      "condition": "adversarial",
+      "completion_tokens": 4569,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-2",
+      "condition": "clean",
+      "completion_tokens": 1335,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-2",
+      "condition": "adversarial",
+      "completion_tokens": 1560,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-3",
+      "condition": "clean",
+      "completion_tokens": 2070,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-3",
+      "condition": "adversarial",
+      "completion_tokens": 3678,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-4",
+      "condition": "clean",
+      "completion_tokens": 1319,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-4",
+      "condition": "adversarial",
+      "completion_tokens": 2187,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-5",
+      "condition": "clean",
+      "completion_tokens": 1520,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-5",
+      "condition": "adversarial",
+      "completion_tokens": 2445,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-6",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-6",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-7",
+      "condition": "clean",
+      "completion_tokens": 7885,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-7",
+      "condition": "adversarial",
+      "completion_tokens": 5956,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-8",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-8",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-9",
+      "condition": "clean",
+      "completion_tokens": 1059,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-9",
+      "condition": "adversarial",
+      "completion_tokens": 1291,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-10",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-10",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-11",
+      "condition": "clean",
+      "completion_tokens": 1987,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-11",
+      "condition": "adversarial",
+      "completion_tokens": 2194,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-12",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-12",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-13",
+      "condition": "clean",
+      "completion_tokens": 1785,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-13",
+      "condition": "adversarial",
+      "completion_tokens": 3048,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-14",
+      "condition": "clean",
+      "completion_tokens": 2811,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-14",
+      "condition": "adversarial",
+      "completion_tokens": 3473,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-15",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-15",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-16",
+      "condition": "clean",
+      "completion_tokens": 1416,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-16",
+      "condition": "adversarial",
+      "completion_tokens": 2231,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-17",
+      "condition": "clean",
+      "completion_tokens": 2448,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-17",
+      "condition": "adversarial",
+      "completion_tokens": 2141,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-18",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-18",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-19",
+      "condition": "clean",
+      "completion_tokens": 1153,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-19",
+      "condition": "adversarial",
+      "completion_tokens": 2242,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-20",
+      "condition": "clean",
+      "completion_tokens": 2906,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-20",
+      "condition": "adversarial",
+      "completion_tokens": 4206,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-21",
+      "condition": "clean",
+      "completion_tokens": 1063,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-21",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-22",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-22",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-23",
+      "condition": "clean",
+      "completion_tokens": 4647,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-23",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-24",
+      "condition": "clean",
+      "completion_tokens": 6395,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-24",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-25",
+      "condition": "clean",
+      "completion_tokens": 4007,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-25",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-26",
+      "condition": "clean",
+      "completion_tokens": 4131,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-26",
+      "condition": "adversarial",
+      "completion_tokens": 2026,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-27",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-27",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-28",
+      "condition": "clean",
+      "completion_tokens": 3043,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-28",
+      "condition": "adversarial",
+      "completion_tokens": 7847,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-29",
+      "condition": "clean",
+      "completion_tokens": 2735,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-29",
+      "condition": "adversarial",
+      "completion_tokens": 4948,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-30",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-30",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-31",
+      "condition": "clean",
+      "completion_tokens": 5278,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-31",
+      "condition": "adversarial",
+      "completion_tokens": 6411,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-32",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-32",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-33",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-33",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-34",
+      "condition": "clean",
+      "completion_tokens": 3980,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-34",
+      "condition": "adversarial",
+      "completion_tokens": 3695,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-35",
+      "condition": "clean",
+      "completion_tokens": 1617,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-35",
+      "condition": "adversarial",
+      "completion_tokens": 2271,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-36",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-36",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-37",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-37",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-38",
+      "condition": "clean",
+      "completion_tokens": 2256,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-38",
+      "condition": "adversarial",
+      "completion_tokens": 2189,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-39",
+      "condition": "clean",
+      "completion_tokens": 665,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-39",
+      "condition": "adversarial",
+      "completion_tokens": 2102,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-40",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-40",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-41",
+      "condition": "clean",
+      "completion_tokens": 1623,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-41",
+      "condition": "adversarial",
+      "completion_tokens": 1916,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-42",
+      "condition": "clean",
+      "completion_tokens": 7994,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-42",
+      "condition": "adversarial",
+      "completion_tokens": 5345,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-43",
+      "condition": "clean",
+      "completion_tokens": 2568,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-43",
+      "condition": "adversarial",
+      "completion_tokens": 6824,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-44",
+      "condition": "clean",
+      "completion_tokens": 5835,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-44",
+      "condition": "adversarial",
+      "completion_tokens": 3751,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-45",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-45",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-46",
+      "condition": "clean",
+      "completion_tokens": 6353,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-46",
+      "condition": "adversarial",
+      "completion_tokens": 3301,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-47",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-47",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-48",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-48",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-49",
+      "condition": "clean",
+      "completion_tokens": 1000,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-49",
+      "condition": "adversarial",
+      "completion_tokens": 6533,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-50",
+      "condition": "clean",
+      "completion_tokens": 2296,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-48",
+      "condition": "adversarial",
+      "completion_tokens": 4981,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-51",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-51",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-52",
+      "condition": "clean",
+      "completion_tokens": 2805,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-52",
+      "condition": "adversarial",
+      "completion_tokens": 6623,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-53",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-53",
+      "condition": "adversarial",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-54",
+      "condition": "clean",
+      "completion_tokens": 4316,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-54",
+      "condition": "adversarial",
+      "completion_tokens": 4586,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-55",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-55",
+      "condition": "adversarial",
+      "completion_tokens": 7873,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-56",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-56",
+      "condition": "adversarial",
+      "completion_tokens": 7414,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-57",
+      "condition": "clean",
+      "completion_tokens": 1058,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-57",
+      "condition": "adversarial",
+      "completion_tokens": 2200,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-58",
+      "condition": "clean",
+      "completion_tokens": 2348,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-58",
+      "condition": "adversarial",
+      "completion_tokens": 7751,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-59",
+      "condition": "clean",
+      "completion_tokens": 2447,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-59",
+      "condition": "adversarial",
+      "completion_tokens": 3208,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-58",
+      "condition": "clean",
+      "completion_tokens": 1290,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-55",
+      "condition": "adversarial",
+      "completion_tokens": 2612,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-58",
+      "condition": "adversarial",
+      "completion_tokens": 1462,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-59",
+      "condition": "clean",
+      "completion_tokens": 1462,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-59",
+      "condition": "adversarial",
+      "completion_tokens": 1236,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "id": "gpqa-50",
+      "condition": "adversarial",
+      "completion_tokens": 2870,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-56",
+      "condition": "clean",
+      "completion_tokens": 4937,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-56",
+      "condition": "adversarial",
+      "completion_tokens": 6260,
+      "reasoning_tokens": 0,
+      "finish_reason": "stop",
+      "nonterm": false
+    },
+    {
+      "model": "Kimi-K3",
+      "id": "gpqa-27",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    },
+    {
+      "model": "gpt-oss-120b",
+      "id": "gpqa-48",
+      "condition": "clean",
+      "completion_tokens": 8192,
+      "reasoning_tokens": 0,
+      "finish_reason": "length",
+      "nonterm": true
+    }
+  ],
+  "new_calls": 123
+}

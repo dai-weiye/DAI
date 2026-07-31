@@ -1,0 +1,1 @@
+{"content": "The total number of cars is 20. There are 12 automatic cars and 4 manual cars. The number of semi-automatic cars is the remainder: 20 - 12 - 4 = 4. The percentage of semi-automatic cars is (4/20) × 100% = 20%.\n\nAnswer: 20%", "finish_reason": "stop", "completion_tokens": 320, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

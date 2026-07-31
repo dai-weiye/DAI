@@ -1,0 +1,1 @@
+{"content": "Kelian's first recipe has 20 instructions. The second recipe has twice as many instructions as the first, so it has 2 × 20 = 40 instructions. To prepare both dishes, Kelian must read the instructions for both recipes: 20 + 40 = 60 instructions.\n\nAnswer: 60", "finish_reason": "stop", "completion_tokens": 166, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

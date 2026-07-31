@@ -1,0 +1,10 @@
+=== multi-vendor probe | GPQA | cap=8192 | 4 models x 30 items x 2 conditions = 240 calls ===
+  20/240 (0 new calls)
+  40/240 (0 new calls)
+  60/240 (0 new calls)
+  80/240 (0 new calls)
+  100/240 (0 new calls)
+  120/240 (0 new calls)
+  140/240 (1 new calls)
+  160/240 (1 new calls)
+  180/240 (4 new calls)

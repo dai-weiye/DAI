@@ -1,0 +1,1 @@
+{"content": "James runs 3 sprints per session, and he does this 3 times a week. Each sprint is 60 meters.\n\nTotal sprints per week: 3 sprints/session × 3 sessions/week = 9 sprints/week.  \nTotal meters per week: 9 sprints × 60 meters/sprint = 540 meters.\n\nAnswer: 540", "finish_reason": "stop", "completion_tokens": 205, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

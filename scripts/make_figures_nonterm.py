@@ -1,118 +1,86 @@
 """
-Figures for the NON-TERMINATION paper (honest CASE-B reframe).
-Reads results/main_records_8k.jsonl, results/main_records.jsonl (2048), and
-results/non_termination_deep.json. NO API cost. Colorblind-safe, print-friendly.
-Saves PDF+PNG to results/figures/.
+Figures for the NON-TERMINATION paper. Reads results/non_termination_deep.json.
+Journal-quality style via figstyle.py. NO API cost. Saves PDF+PNG to results/figures/.
 
-New headline figures:
-  fig_nonterm    : non-termination rate, clean vs adversarial, per dataset (8k).
-  fig_budget     : budget sensitivity 2048 -> 8192 (the failure PERSISTS at 4x budget).
-  fig_mechanism  : in-trace mechanism signals (self-doubt density, verbatim looping)
-                   for non-terminating vs terminating traces, with bootstrap CIs.
+  fig_budget     : budget sensitivity 2048 -> 8192 (slope chart).
+  fig_mechanism  : in-trace mechanism signals, non-terminating vs terminating, with CIs.
+(fig_nonterm is produced by make_figures_rigor.py with Wilson error bars.)
 """
 import sys, json, pathlib
-from collections import defaultdict
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
-import matplotlib
-matplotlib.use("Agg")
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[0]))
 import matplotlib.pyplot as plt
 import numpy as np
+from figstyle import apply_style, style_axes, bar_kw, ERRORBAR_KW, PALETTE as P
 
+apply_style()
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 FIG = ROOT / "results/figures"; FIG.mkdir(parents=True, exist_ok=True)
-plt.rcParams.update({"font.size": 11, "axes.spines.top": False,
-                     "axes.spines.right": False, "figure.dpi": 130})
-# Nature (NPG) palette; semantic: blue=clean/calm, red=adversarial/danger.
-C = {"a": "#4DBBD5", "b": "#E64B35", "c": "#00A087", "d": "#3C5488", "gray": "#8491B4"}
-
 DEEP = json.load(open(ROOT / "results/non_termination_deep.json"))
 DS = ["gsm8k", "math500", "gpqa_diamond"]
 DSLAB = {"gsm8k": "GSM8K", "math500": "MATH-500", "gpqa_diamond": "GPQA-D"}
 
 
-def fig_nonterm():
-    """Grouped bars: non-termination rate clean vs adversarial per dataset (8k)."""
-    rate = DEEP["rate_8k"]
-    clean = [rate[f"{d}/clean"]["rate"] for d in DS]
-    adv = [rate[f"{d}/adversarial"]["rate"] for d in DS]
-    x = np.arange(len(DS)); w = 0.38
-    fig, ax = plt.subplots(figsize=(5.4, 3.2))
-    b1 = ax.bar(x - w/2, clean, w, label="clean", color=C["a"])
-    b2 = ax.bar(x + w/2, adv, w, label="adversarial (distractor)", color=C["b"])
-    for bars in (b1, b2):
-        for bar in bars:
-            h = bar.get_height()
-            ax.text(bar.get_x() + bar.get_width()/2, h + 0.012,
-                    f"{h:.0%}", ha="center", fontsize=8)
-    ax.set_xticks(x); ax.set_xticklabels([DSLAB[d] for d in DS])
-    ax.set_ylabel("non-termination rate")
-    ax.set_ylim(0, max(adv) + 0.12)
-    ax.legend(frameon=False, fontsize=9, loc="upper left")
-    o = DEEP["rate_8k"]["_overall"]
-    ax.set_title(f"distractor multiplies non-termination "
-                 f"{o['adv_rate']:.0%} vs {o['clean_rate']:.0%} "
-                 f"(×{o['distractor_multiplier']:.1f})", fontsize=9)
-    fig.tight_layout(pad=0.4)
-    fig.savefig(FIG / "fig_nonterm.pdf"); fig.savefig(FIG / "fig_nonterm.png")
-    plt.close(fig)
-
-
 def fig_budget():
-    """Non-termination (adversarial) at 2048 vs 8192: it drops but PERSISTS."""
+    """Slope chart: adversarial non-termination at 2048 vs 8192, per dataset."""
     bs = DEEP["budget_sensitivity"]
-    adv_keys = [f"{d}/adversarial" for d in DS]
-    r2 = [bs[k]["rate_2k"] for k in adv_keys]
-    r8 = [bs[k]["rate_8k"] for k in adv_keys]
-    x = np.arange(len(DS))
-    fig, ax = plt.subplots(figsize=(5.4, 3.2))
-    for i in range(len(DS)):
-        ax.plot([0, 1], [r2[i], r8[i]], "-o", color=C["b"], ms=6, lw=1.5)
-        ax.text(1.02, r8[i], DSLAB[DS[i]], va="center", fontsize=8, color=C["gray"])
-    ax.set_xticks([0, 1]); ax.set_xticklabels(["2048\nbudget", "8192\nbudget"])
-    ax.set_xlim(-0.25, 1.45)
+    r2 = [bs[f"{d}/adversarial"]["rate_2k"] for d in DS]
+    r8 = [bs[f"{d}/adversarial"]["rate_8k"] for d in DS]
+    cols = [P["adv"], P["accent"], P["navy"]]
+    fig, ax = plt.subplots(figsize=(5.2, 3.4))
+    for i, d in enumerate(DS):
+        ax.plot([0, 1], [r2[i], r8[i]], "-", color=cols[i], lw=2.0, zorder=2,
+                solid_capstyle="round")
+        ax.plot([0, 1], [r2[i], r8[i]], "o", color=cols[i], ms=7, zorder=3,
+                markeredgecolor="white", markeredgewidth=1.0)
+        ax.text(-0.06, r2[i], f"{r2[i]:.0%}", va="center", ha="right",
+                fontsize=9, color=cols[i])
+        ax.text(1.06, r8[i], f"{r8[i]:.0%}  {DSLAB[d]}", va="center", ha="left",
+                fontsize=9, color=cols[i])
+    ax.set_xticks([0, 1]); ax.set_xticklabels(["2,048", "8,192"])
+    ax.set_xlabel("token budget")
+    ax.set_xlim(-0.42, 1.7)
     ax.set_ylabel("non-termination rate (adversarial)")
     ax.set_ylim(0, max(r2) + 0.08)
-    ax.set_title("4× the token budget does not eliminate non-termination",
-                 fontsize=9)
-    fig.tight_layout(pad=0.4)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, _: f"{y:.0%}"))
+    style_axes(ax)
+    fig.tight_layout()
     fig.savefig(FIG / "fig_budget.pdf"); fig.savefig(FIG / "fig_budget.png")
     plt.close(fig)
 
 
 def fig_mechanism():
-    """In-trace mechanism signals: non-terminating vs terminating (8k), with CIs.
-    Two panels (different scales): self-doubt marker density; verbatim looping ratio."""
+    """Two panels: self-doubt density and verbatim looping, term vs non-term, with
+    a bracketed gap-CI annotation. Slim bars, refined palette, title in caption."""
     m = DEEP["mechanism"]
-    fig, axes = plt.subplots(1, 2, figsize=(6.6, 3.1))
-    specs = [("doubt_density", "self-doubt markers / 1k chars", axes[0]),
-             ("loop_ratio", "verbatim 12-gram looping", axes[1])]
-    for key, ylab, ax in specs:
-        nt = m[key]["nonterm_mean"]; tm = m[key]["term_mean"]
-        # error bar from the gap CI applied symmetrically around nonterm mean is not
-        # exact per-group; show group means with a bracket annotation of the gap CI.
-        bars = ax.bar([0, 1], [tm, nt], color=[C["a"], C["b"]], width=0.6)
-        for bar, v in zip(bars, [tm, nt]):
-            ax.text(bar.get_x()+bar.get_width()/2, v, f"{v:.3f}",
-                    ha="center", va="bottom", fontsize=8)
-        ax.set_xticks([0, 1]); ax.set_xticklabels(["terminating", "non-\nterminating"],
-                                                  fontsize=9)
-        ax.set_ylabel(ylab, fontsize=9)
-        ax.set_ylim(0, max(nt, tm) * 1.25)
+    fig, axes = plt.subplots(1, 2, figsize=(6.8, 3.3))
+    specs = [("doubt_density", "self-doubt markers per 1k chars", axes[0], 0.001),
+             ("loop_ratio", "verbatim 12-gram looping", axes[1], 0.0001)]
+    for key, ylab, ax, _pad in specs:
+        tm = m[key]["term_mean"]; nt = m[key]["nonterm_mean"]
+        bars = ax.bar([0, 1], [tm, nt],
+                      color=[P["clean"], P["adv"]], **{k: v for k, v in bar_kw(None).items() if k != "color"})
+        top = max(nt, tm)
+        for x, v in zip([0, 1], [tm, nt]):
+            ax.text(x, v + top * 0.03, f"{v:.3f}", ha="center", va="bottom",
+                    fontsize=9, color=P["ink"])
+        # significance bracket between the two bars
         lo, hi = m[key]["ci"]
-        sig = "*" if m[key]["significant"] else "n.s."
-        ax.set_title(f"gap {m[key]['gap']:.3f} [{lo:.3f},{hi:.3f}] {sig}",
-                     fontsize=8)
-    fig.suptitle("Non-terminating traces show more self-doubt and more verbatim looping",
-                 fontsize=9)
-    fig.tight_layout(pad=0.5, rect=[0, 0, 1, 0.96])
+        sig = "$\\ast$" if m[key]["significant"] else "n.s."
+        ybr = top * 1.16
+        ax.plot([0, 0, 1, 1], [top*1.08, ybr, ybr, top*1.08], lw=0.9, color=P["gray"])
+        ax.text(0.5, ybr + top*0.015, sig, ha="center", va="bottom",
+                fontsize=11, color=P["ink"])
+        ax.set_xticks([0, 1])
+        ax.set_xticklabels(["terminating", "non-\nterminating"])
+        ax.set_ylabel(ylab)
+        ax.set_ylim(0, top * 1.32)
+        style_axes(ax)
+    fig.tight_layout(w_pad=2.0)
     fig.savefig(FIG / "fig_mechanism.pdf"); fig.savefig(FIG / "fig_mechanism.png")
     plt.close(fig)
 
 
 if __name__ == "__main__":
-    fig_nonterm()
     fig_budget()
     fig_mechanism()
-    print(f"wrote non-termination figures to {FIG}:")
-    for p in ["fig_nonterm.pdf", "fig_budget.pdf", "fig_mechanism.pdf"]:
-        print("  ", p)
+    print("wrote fig_budget.pdf, fig_mechanism.pdf (polished)")

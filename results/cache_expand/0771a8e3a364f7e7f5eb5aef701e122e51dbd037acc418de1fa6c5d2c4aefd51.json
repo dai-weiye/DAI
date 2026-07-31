@@ -1,0 +1,1 @@
+{"content": "Total students = 200.  \nBoys = 2/5 × 200 = 80.  \nGirls = 200 − 80 = 120.  \nGirls in Girl Scouts = 2/3 × 120 = 80.  \nGirls not in Girl Scouts = 120 − 80 = 40.  \n\nAnswer: 40", "finish_reason": "stop", "completion_tokens": 245, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

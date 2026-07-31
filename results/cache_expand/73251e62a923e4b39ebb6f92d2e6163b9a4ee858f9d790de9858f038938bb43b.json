@@ -1,0 +1,1 @@
+{"content": "The winner received \\(\\frac{3}{4}\\) of the 80 votes, which is \\(\\frac{3}{4} \\times 80 = 60\\) votes. Since there are only two candidates, the loser received the remaining votes: \\(80 - 60 = 20\\) votes.\n\nAnswer: 20", "finish_reason": "stop", "completion_tokens": 725, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

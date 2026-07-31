@@ -1,0 +1,1 @@
+{"content": "There are twice as many boys as girls, so with 60 girls, the number of boys is \\(2 \\times 60 = 120\\). The total number of students is \\(60 + 120 = 180\\). With 5 students for every teacher, the number of teachers is \\(180 \\div 5 = 36\\).\n\nAnswer: 36", "finish_reason": "stop", "completion_tokens": 205, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

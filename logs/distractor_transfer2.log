@@ -1,0 +1,93 @@
+=== distractor-transfer probe | GPQA | cap=8192 | 2 models x 60 items x 3 conditions = 360 calls ===
+  20/360 (0 new calls)
+  40/360 (0 new calls)
+  60/360 (0 new calls)
+  80/360 (0 new calls)
+  100/360 (0 new calls)
+  120/360 (0 new calls)
+  140/360 (0 new calls)
+  160/360 (0 new calls)
+  180/360 (0 new calls)
+  200/360 (0 new calls)
+  220/360 (3 new calls)
+  240/360 (6 new calls)
+  260/360 (9 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121231490305567325991208
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121231490073660965478098
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121231490354688814928605
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121231527252420989623924
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 202607312123158058691319094869)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121231575787223173842109
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121233695520625327609776
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 202607312123379842694679344079)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121233729447191251729966
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121233815435905662024267
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121233851621447653054192
+  280/360 (20 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121233844913758246330642
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121235943026671577939738
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121235955516001925502968
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121235967261219406244249
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121240051794624037260919
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121240110714732397699104
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121240128860771073229065
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121242217253110600932105
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121242232054644695136926
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121242280343245720472356
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121242268184813203476373
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121242335609460893443594
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121242366839387104957827
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121244493244801442788867
+  300/360 (34 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 202607312124458115615449958654)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121244513002982110029341
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 202607312124459928023550352829)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121244577959470392390156
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121244645053913211359659
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121250771623507924897151
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121250773254375945691059
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121250771683507094172806
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121250790031409290108778
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121250843881398103947717
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121250855547456269099388
+  320/360 (45 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121252974198401709029913
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121253010955262132047839
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121253014458636007824041
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121253027837943976505780
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121253051874955037024404
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121253056805333398391736
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121255221324529341847604
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121255223344705698930706
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121255247942399339761638
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 202607312125531158167186320159)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 202607312125535847880689296929)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121255296049539647218148
+  340/360 (57 new calls)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121261432428639900465946
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121261460567445870750053
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121261461240701292760925
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121261548936654345440545
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121261555129599561340095
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 202607312126167602386304424231)
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121263647280896317781394
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121263754965361293252882
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121263755160452195168066
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121263810298490891102153
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121263810139827903527030
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121263825366578507368467
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'user quota is not enough (request id: 2026073121265877188085544785691
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+    [warn] Kimi-K3: Error code: 403 - {'error': {'message': 'need pre-deduct ＄0.280, balance ＄0.241 is insufficient (request id: 2
+  360/360 (65 new calls)
+
+======================================================================
+o3 (OpenAI)   clean 10/60 = 17%
+    authority     13/60  =   22%   RR 1.30
+    self-doubt    13/60  =   22%   RR 1.30
+Kimi-K3 (Moonshot)   clean 9/60 = 15%
+    authority      7/25  =   28%   RR 1.87
+    self-doubt    10/31  =   32%   RR 2.15
+======================================================================
+new (billed) calls: 65   wrote results/multivendor_distractor_transfer.json

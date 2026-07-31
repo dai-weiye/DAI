@@ -1,0 +1,1 @@
+{"content": "Rosie runs at 10 miles per hour for the first 3 hours, covering 10 × 3 = 30 miles.  \nShe then runs at 5 miles per hour for the remaining 7 − 3 = 4 hours, covering 5 × 4 = 20 miles.  \nTotal distance = 30 + 20 = 50 miles.\n\nAnswer: 50", "finish_reason": "stop", "completion_tokens": 215, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

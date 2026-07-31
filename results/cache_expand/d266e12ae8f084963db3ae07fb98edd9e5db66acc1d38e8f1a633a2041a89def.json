@@ -1,0 +1,1 @@
+{"content": "Amy is 5 years older than Jackson: A = J + 5.  \nAmy is 2 years younger than Corey: A = C - 2.  \nJames is 10 and is 1 year younger than Corey: James = C - 1 → 10 = C - 1 → C = 11.  \nThen A = 11 - 2 = 9.  \nThen 9 = J + 5 → J = 4.  \n\nAnswer: 4", "finish_reason": "stop", "completion_tokens": 327, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

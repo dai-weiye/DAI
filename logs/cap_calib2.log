@@ -1,0 +1,16 @@
+[PASS] o4-mini                          cap256:ct=256,length  cap1024:ct=1024,length
+[PASS] claude-opus-4-8                  cap256:ct=256,length  cap1024:ct=1024,length
+[PASS] o3                               cap256:ct=256,length  cap1024:ct=1024,length
+[PASS] MiniMax-M2.7                     cap256:ct=256,length  cap1024:ct=1024,length
+[PASS] gpt-oss-120b                     cap256:ct=256,length  cap1024:ct=1024,length
+[PASS] Kimi-K3                          cap256:ct=256,length  cap1024:ct=1024,length
+[FAIL] grok-4                           cap256:ct=1714,stop  cap1024:ct=1377,stop
+[FAIL] grok-3-reasoner                  cap256:ct=1957,stop  cap1024:ct=1129,stop
+[FAIL] gemini-3-pro-preview-thinking    cap256:ct=2876,stop  cap1024:ct=2968,stop
+[FAIL] grok-4.2                         cap256:ct=1297,stop  cap1024:ct=1200,stop
+[FAIL] qwen3-235b-a22b-thinking-2507    cap256:ct=9002,length  cap1024:ct=10668,length
+[FAIL] gpt-5.4                          cap256:ct=6727,stop  cap1024:ct=6816,stop
+[FAIL] gemini-3.1-pro-preview-thinking  cap256:ct=ERR,Request timed out.  cap1024:ct=ERR,Request timed out.
+[FAIL] glm-5                            cap256:ct=ERR,Request timed out.  cap1024:ct=ERR,Request timed out.
+
+usable for the probe: ['o4-mini', 'claude-opus-4-8', 'o3', 'MiniMax-M2.7', 'gpt-oss-120b', 'Kimi-K3']

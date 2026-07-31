@@ -1,0 +1,1 @@
+{"content": "Brian initially has 20 video games, but he lost 5 right before the comparison, so he has 20 - 5 = 15 games at the time of comparison. Bobby has 5 fewer than 3 times as many as Brian, so Bobby has 3 × 15 - 5 = 45 - 5 = 40 video games.\n\nAnswer: 40", "finish_reason": "stop", "completion_tokens": 246, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

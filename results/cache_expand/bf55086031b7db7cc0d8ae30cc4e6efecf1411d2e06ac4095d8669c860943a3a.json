@@ -1,0 +1,1 @@
+{"content": "Grandma Jones baked 5 pies and cut each into 8 pieces, so the total number of pieces is \\(5 \\times 8 = 40\\). After the luncheon, 14 pieces remained. The number of pieces taken by the guests is \\(40 - 14 = 26\\).\n\nAnswer: 26", "finish_reason": "stop", "completion_tokens": 211, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

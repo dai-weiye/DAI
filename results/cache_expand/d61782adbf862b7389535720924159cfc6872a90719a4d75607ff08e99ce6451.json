@@ -1,0 +1,1 @@
+{"content": "The bush has 6 clusters, each containing 20 raspberries. So the total from clusters is \\(6 \\times 20 = 120\\). There are also 67 individual raspberries. Adding these together gives \\(120 + 67 = 187\\).\n\nAnswer: 187", "finish_reason": "stop", "completion_tokens": 174, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

@@ -27,12 +27,20 @@ python3 scripts/generalization.py --n 30 --n_e2 20 --e2_cap 16384
 
 echo "==> [5b] multi-agent liveness + mitigation (offline pipeline simulation)"
 python3 scripts/liveness.py
-python3 scripts/two_agent_demo.py --n 20
+python3 scripts/two_agent_demo.py --n 60
+python3 scripts/hedged_retry_real.py
 
-echo "==> [6/7] figures: pipeline, budget, mechanism, trajectory, early-commit"
+echo "==> [5d] cross-vendor probes (relay; cap screen first, then the probes)"
+python3 scripts/relay_cap_calibration.py
+python3 scripts/multivendor_probe.py --n 60
+python3 scripts/multivendor_stats.py
+python3 scripts/multivendor_distractor_transfer.py --n 60
+
+echo "==> [6/7] figures: pipeline, budget, mechanism, trajectory, early-commit, survival"
 python3 scripts/make_flowchart.py
 python3 scripts/make_figures_nonterm.py
 python3 scripts/make_figures_liveness.py
+python3 scripts/make_figure_survival.py
 # rigor figures LAST so the CI-error-bar fig_nonterm + forest plot are the final versions
 python3 scripts/make_figures_rigor.py
 

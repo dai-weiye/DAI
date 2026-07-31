@@ -1,0 +1,1 @@
+{"content": "Total carrots: 200 pounds.  \nNumber of restaurants: 40.  \nEach restaurant receives: 2 pounds.  \nTotal carrots used: 40 × 2 = 80 pounds.  \nCarrots not used: 200 − 80 = 120 pounds.  \n\nAnswer: 120", "finish_reason": "stop", "completion_tokens": 168, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

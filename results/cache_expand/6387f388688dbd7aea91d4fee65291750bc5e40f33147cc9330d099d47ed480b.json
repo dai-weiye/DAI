@@ -1,0 +1,1 @@
+{"content": "The common factors of 100 and 150 are the factors of their greatest common divisor, which is 50. The factors of 50 are 1, 2, 5, 10, 25, and 50. Among these, the two-digit integers are 10, 25, and 50. Therefore, there are 3 such integers.\n\nAnswer: 3", "finish_reason": "stop", "completion_tokens": 568, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

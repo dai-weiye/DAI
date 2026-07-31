@@ -1,0 +1,1 @@
+{"content": "The total number of Asians is 240, and 80 are Japanese. The rest are Chinese, so the number of Chinese is 240 - 80 = 160. If there are 60 boys on the Chinese team, then the number of girls is 160 - 60 = 100.\n\nAnswer: 100", "finish_reason": "stop", "completion_tokens": 189, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

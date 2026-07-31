@@ -1,20 +1,20 @@
 {
-  "n": 20,
+  "n": 60,
   "clean": {
-    "n": 20,
-    "completion_rate": 0.75,
-    "solver_nonterm": 0.25,
-    "verifier_nonterm": 0.0,
-    "blocked_rate": 0.25,
-    "indep_pred_completion": 0.765625
+    "n": 60,
+    "completion_rate": 0.6833333333333333,
+    "solver_nonterm": 0.26666666666666666,
+    "verifier_nonterm": 0.06818181818181818,
+    "blocked_rate": 0.31666666666666665,
+    "indep_pred_completion": 0.6931823921028466
   },
   "adversarial": {
-    "n": 20,
-    "completion_rate": 0.55,
-    "solver_nonterm": 0.45,
-    "verifier_nonterm": 0.0,
-    "blocked_rate": 0.44999999999999996,
-    "indep_pred_completion": 0.6006250000000001
+    "n": 60,
+    "completion_rate": 0.5,
+    "solver_nonterm": 0.48333333333333334,
+    "verifier_nonterm": 0.03225806451612903,
+    "blocked_rate": 0.5,
+    "indep_pred_completion": 0.5508672245346282
   },
   "records": [
     {
@@ -336,7 +336,647 @@
       "verifier_ran": true,
       "verifier_nonterm": false,
       "completed": true
+    },
+    {
+      "id": "gpqa-20",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-20",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-21",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-21",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-22",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-22",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-23",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-23",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-24",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": true,
+      "completed": false
+    },
+    {
+      "id": "gpqa-24",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-25",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": true,
+      "completed": false
+    },
+    {
+      "id": "gpqa-25",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": true,
+      "completed": false
+    },
+    {
+      "id": "gpqa-26",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-26",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-27",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-27",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-28",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-28",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-29",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-29",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-30",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-30",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-31",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-31",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-32",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-32",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-33",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-33",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-34",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-34",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-35",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-35",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-36",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-36",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-37",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-37",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-38",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-38",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-39",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-39",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-40",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-40",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-41",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-41",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-42",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-42",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-43",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-43",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-44",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-44",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-45",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": true,
+      "completed": false
+    },
+    {
+      "id": "gpqa-45",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-46",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-46",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-47",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-47",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-48",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-48",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-49",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-49",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-50",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-50",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-51",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-51",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-52",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-52",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-53",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-53",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-54",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-54",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-55",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-55",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-56",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-56",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-57",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-57",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-58",
+      "condition": "clean",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-58",
+      "condition": "adversarial",
+      "solver_nonterm": false,
+      "verifier_ran": true,
+      "verifier_nonterm": false,
+      "completed": true
+    },
+    {
+      "id": "gpqa-59",
+      "condition": "clean",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
+    },
+    {
+      "id": "gpqa-59",
+      "condition": "adversarial",
+      "solver_nonterm": true,
+      "verifier_ran": false,
+      "verifier_nonterm": null,
+      "completed": false
     }
   ],
-  "new_spend": 0.04260633600000001
+  "new_spend": 0.117302216
 }

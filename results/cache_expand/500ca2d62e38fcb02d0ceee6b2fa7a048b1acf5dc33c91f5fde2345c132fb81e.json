@@ -1,0 +1,1 @@
+{"content": "Mike scores 4 points in the first 20 minutes. In the second 20 minutes, he scores 25% more points than the first 20 minutes. 25% of 4 is 1, so he scores 4 + 1 = 5 points in the second 20 minutes. The total points scored is 4 + 5 = 9.\n\nAnswer: 9", "finish_reason": "stop", "completion_tokens": 209, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

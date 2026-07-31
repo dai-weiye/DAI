@@ -1,0 +1,211 @@
+{
+  "deepseek_gpqa_reference": {
+    "clean": {
+      "k": 16,
+      "n": 60,
+      "rate": 0.26666666666666666,
+      "ci": [
+        0.17132496487078852,
+        0.3900895360189135
+      ]
+    },
+    "adversarial": {
+      "k": 29,
+      "n": 60,
+      "rate": 0.48333333333333334,
+      "ci": [
+        0.3617484128577001,
+        0.6069240514915643
+      ]
+    },
+    "rate_ratio": 1.8125,
+    "fisher_p": 0.02314584172696502,
+    "depth3_completion_clean": 0.3943703703703705
+  },
+  "models": [
+    {
+      "model": "claude-opus-4-8",
+      "vendor": "Anthropic",
+      "clean": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "ci": [
+          0.002948083860873682,
+          0.08855338226779477
+        ]
+      },
+      "adversarial": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          0.06017393047793289
+        ]
+      },
+      "rate_ratio": 0.0,
+      "fisher_p": 1.0,
+      "expected_k_if_deepseek_sized": 1.8125,
+      "p_observed_or_fewer_under_deepseek_effect": 0.15874749337641084,
+      "median_ct": [
+        741,
+        833
+      ],
+      "depth3_completion_clean": 0.9508287037037035
+    },
+    {
+      "model": "o3",
+      "vendor": "OpenAI",
+      "clean": {
+        "k": 10,
+        "n": 60,
+        "rate": 0.16666666666666666,
+        "ci": [
+          0.09313077201321032,
+          0.28031851497207827
+        ]
+      },
+      "adversarial": {
+        "k": 12,
+        "n": 60,
+        "rate": 0.2,
+        "ci": [
+          0.11828389736858964,
+          0.3178204609181701
+        ]
+      },
+      "rate_ratio": 1.2000000000000002,
+      "fisher_p": 0.8139756773897733,
+      "expected_k_if_deepseek_sized": 18.125,
+      "p_observed_or_fewer_under_deepseek_effect": 0.05298015291096089,
+      "median_ct": [
+        2651,
+        2173
+      ],
+      "depth3_completion_clean": 0.5787037037037038
+    },
+    {
+      "model": "gpt-oss-120b",
+      "vendor": "OpenAI (open-weight)",
+      "clean": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "ci": [
+          0.002948083860873682,
+          0.08855338226779477
+        ]
+      },
+      "adversarial": {
+        "k": 1,
+        "n": 60,
+        "rate": 0.016666666666666666,
+        "ci": [
+          0.002948083860873682,
+          0.08855338226779477
+        ]
+      },
+      "rate_ratio": 1.0,
+      "fisher_p": 1.0,
+      "expected_k_if_deepseek_sized": 1.8125,
+      "p_observed_or_fewer_under_deepseek_effect": 0.4554399084945149,
+      "median_ct": [
+        1449,
+        1551
+      ],
+      "depth3_completion_clean": 0.9508287037037035
+    },
+    {
+      "model": "Kimi-K3",
+      "vendor": "Moonshot",
+      "clean": {
+        "k": 9,
+        "n": 60,
+        "rate": 0.15,
+        "ci": [
+          0.08097349242295689,
+          0.26114825891159615
+        ]
+      },
+      "adversarial": {
+        "k": 10,
+        "n": 59,
+        "rate": 0.1694915254237288,
+        "ci": [
+          0.0947573785633763,
+          0.28463461654814215
+        ]
+      },
+      "rate_ratio": 1.1299435028248588,
+      "fisher_p": 0.807066202549965,
+      "expected_k_if_deepseek_sized": 16.040625,
+      "p_observed_or_fewer_under_deepseek_effect": 0.04771832409570163,
+      "median_ct": [
+        1758,
+        2942
+      ],
+      "depth3_completion_clean": 0.6141249999999999
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "vendor": "MiniMax",
+      "clean": {
+        "k": 10,
+        "n": 60,
+        "rate": 0.16666666666666666,
+        "ci": [
+          0.09313077201321032,
+          0.28031851497207827
+        ]
+      },
+      "adversarial": {
+        "k": 15,
+        "n": 60,
+        "rate": 0.25,
+        "ci": [
+          0.1577638557841185,
+          0.372323109454848
+        ]
+      },
+      "rate_ratio": 1.5,
+      "fisher_p": 0.3688636103427911,
+      "expected_k_if_deepseek_sized": 18.125,
+      "p_observed_or_fewer_under_deepseek_effect": 0.23299254187263208,
+      "median_ct": [
+        4316,
+        6623
+      ],
+      "depth3_completion_clean": 0.5787037037037038
+    }
+  ],
+  "external_pooled": {
+    "models_pooled": [
+      "claude-opus-4-8",
+      "o3",
+      "gpt-oss-120b",
+      "Kimi-K3",
+      "MiniMax-M2.7"
+    ],
+    "clean": {
+      "k": 31,
+      "n": 300,
+      "rate": 0.10333333333333333,
+      "ci": [
+        0.07375612591943384,
+        0.14294099521210313
+      ]
+    },
+    "adversarial": {
+      "k": 38,
+      "n": 299,
+      "rate": 0.12709030100334448,
+      "ci": [
+        0.0940100162531807,
+        0.16963143855355658
+      ]
+    },
+    "mantel_haenszel_rr": 1.2315217391304347,
+    "pooled_fisher_p": 0.3734624930212544
+  }
+}

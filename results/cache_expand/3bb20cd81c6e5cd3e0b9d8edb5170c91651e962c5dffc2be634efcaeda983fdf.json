@@ -1,0 +1,1 @@
+{"content": "Claire eats 3 eggs per day. There are 7 days in a week, so in 4 weeks there are 4 × 7 = 28 days. Over 28 days, she eats 3 × 28 = 84 eggs. Since one dozen equals 12 eggs, the number of dozens is 84 ÷ 12 = 7.\n\nAnswer: 7", "finish_reason": "stop", "completion_tokens": 232, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

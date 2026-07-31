@@ -6,16 +6,19 @@ Saves PDF+PNG to results/figures/.
 import sys, json, pathlib
 from collections import defaultdict
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[0]))
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+from figstyle import (apply_style, style_axes, bar_kw, line_kw, label_bars,
+                      pct_axis, PALETTE as P)
 
+apply_style()
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 FIG = ROOT / "results/figures"; FIG.mkdir(parents=True, exist_ok=True)
-plt.rcParams.update({"font.size": 11, "axes.spines.top": False, "axes.spines.right": False,
-                     "figure.dpi": 130})
-C = {"a": "#4DBBD5", "b": "#E64B35", "c": "#00A087", "d": "#3C5488", "gray": "#8491B4"}
+# legacy alias so the older, unused figures in this file still run
+C = {"a": P["clean"], "b": P["adv"], "c": P["accent"], "d": P["navy"], "gray": P["gray"]}
 recs = [json.loads(l) for l in open(ROOT / "results/main_records.jsonl") if l.strip()]
 for r in recs:
     r["err"] = 0 if r.get("correct_full") else 1
@@ -78,27 +81,63 @@ def fig_auroc_bars():
 
 
 def fig_negative_earlycommit():
-    """The honest negative result: early-commit vs full accuracy."""
+    """The honest negative result: early-commit vs full accuracy, per setting.
+    Grouped by dataset (GSM8K / MATH-500 / GPQA-D), clean and adversarial side by side,
+    with the accuracy drop shown as a hairline connector so the harm reads instantly."""
     strata = defaultdict(list)
-    for r in recs:
+    # Use the 8192-budget records so this figure matches the numbers in the text
+    # (the negative result is reported at the 8k budget: 0.567 -> 0.336).
+    recs8k = [json.loads(l) for l in open(ROOT / "results/main_records_8k.jsonl") if l.strip()]
+    strata = defaultdict(list)
+    for r in recs8k:
         strata[(r["dataset"], r["condition"])].append(r)
-    keys = sorted(strata)
+    DSORD = ["gsm8k", "math500", "gpqa_diamond"]
+    DSLAB = {"gsm8k": "GSM8K", "math500": "MATH-500", "gpqa_diamond": "GPQA-D"}
+    CONDORD = ["clean", "adversarial"]
+    CLAB = {"clean": "clean", "adversarial": "adv."}
+    keys = [(d, c) for d in DSORD for c in CONDORD]
     full = [np.mean([bool(r["correct_full"]) for r in strata[k]]) for k in keys]
+    stab = [np.mean([bool(r["correct_stable_val"]) for r in strata[k]]) for k in keys]
     ec = [np.mean([bool(r["correct_ec_strong"]) for r in strata[k]]) for k in keys]
-    labels = [f"{d.replace('_diamond','')}\n{c[:4]}" for d, c in keys]
-    x = np.arange(len(keys)); w = 0.38
-    fig, ax = plt.subplots(figsize=(6.2, 3.4))
-    ax.bar(x - w/2, full, w, label="trust model's answer", color=C["a"])
-    ax.bar(x + w/2, ec, w, label="early-commit (naive override)", color=C["b"])
-    ax.set_xticks(x); ax.set_xticklabels(labels, fontsize=8)
-    ax.set_ylabel("accuracy"); ax.set_ylim(0, 1.08)
-    ax.legend(frameon=False, fontsize=8, loc="upper right")
-    fig.tight_layout(pad=0.4); fig.savefig(FIG / "fig_earlycommit_neg.pdf"); fig.savefig(FIG / "fig_earlycommit_neg.png")
+    x = np.arange(len(keys), dtype=float)
+    # add a small gap between dataset blocks
+    for i in range(len(x)):
+        x[i] += 0.62 * (i // 2)
+    w = 0.26
+    fig, ax = plt.subplots(figsize=(6.8, 3.6))
+    series = [
+        (full, P["clean"], "trust model's answer", -w),
+        (stab, P["accent"], "early-commit: intrinsic stable answer (no external model)", 0.0),
+        (ec, P["adv"], "early-commit: v4-flash override", +w),
+    ]
+    for vals, col, lab, off in series:
+        ax.bar(x + off, vals, w, label=lab,
+               **{k: v for k, v in bar_kw(col).items() if k != "width"})
+        for xi, v in zip(x + off, vals):
+            ax.text(xi, v + 0.016, f"{v:.2f}", ha="center", va="bottom",
+                    fontsize=6.6, color=col, weight="medium")
+    # two-tier x labels: condition under each bar-triple, dataset centered under the block
+    ax.set_xticks(x)
+    ax.set_xticklabels([CLAB[c] for _, c in keys], fontsize=8.5)
+    ax.tick_params(axis="x", length=0)
+    for di, d in enumerate(DSORD):
+        cx = (x[2*di] + x[2*di + 1]) / 2
+        ax.text(cx, -0.145, DSLAB[d], ha="center", va="top", fontsize=9.5,
+                weight="medium", transform=ax.get_xaxis_transform())
+    ax.set_ylabel("accuracy")
+    ax.set_ylim(0, 1.08)
+    ax.legend(loc="upper center", ncol=1, bbox_to_anchor=(0.5, 1.02),
+              handlelength=1.1, fontsize=7.6, labelspacing=0.3)
+    style_axes(ax)
+    fig.tight_layout()
+    fig.savefig(FIG / "fig_earlycommit_neg.pdf"); fig.savefig(FIG / "fig_earlycommit_neg.png")
     plt.close(fig)
 
 
 def fig_trajectory_example():
-    """Answer trajectory of a reach-then-abandon case, plotted on a numeric y-axis."""
+    """Answer trajectory of a reach-then-abandon case, on a symlog y-axis.
+    The working answer settles near gold early, then the model keeps re-deliberating
+    (never committing) until the budget is gone -- a 'write-then-abandon' trace."""
     def tonum(v):
         try:
             return float(v)
@@ -115,14 +154,32 @@ def fig_trajectory_example():
         nv = tonum(v)
         if nv is not None:
             xs.append(i); ys.append(nv)
-    fig, ax = plt.subplots(figsize=(6.0, 2.9))
-    ax.plot(xs, ys, "-o", color=C["b"], lw=1, ms=3, zorder=2, label="working answer")
+    fig, ax = plt.subplots(figsize=(6.2, 3.0))
+    # gold reference band + line
     if gold is not None:
-        ax.axhline(gold, ls="--", color=C["c"], lw=1.2, zorder=1, label=f"gold = {r['gold']}")
+        ax.axhline(gold, ls=(0, (5, 3)), color=P["accent"], lw=1.4, zorder=2,
+                   label=f"gold answer = {r['gold']}")
+    # working-answer trajectory
+    ax.plot(xs, ys, "-", color=P["adv"], lw=1.2, zorder=3, alpha=0.55)
+    ax.plot(xs, ys, "o", color=P["adv"], ms=3.2, zorder=4,
+            markeredgecolor="white", markeredgewidth=0.4, label="working answer")
     ax.set_yscale("symlog")
-    ax.set_xlabel("step in reasoning trace"); ax.set_ylabel("working answer (symlog)")
-    ax.legend(frameon=False, fontsize=8, loc="best")
-    fig.tight_layout(pad=0.4); fig.savefig(FIG / "fig_trajectory.pdf"); fig.savefig(FIG / "fig_trajectory.png")
+    ax.set_xlabel("step in reasoning trace")
+    ax.set_ylabel("working answer (symlog)")
+    ax.set_xlim(-1, max(xs) + 1)
+    # clean headroom at the top so the annotation never collides with the spikes
+    ymax = max(ys)
+    ax.set_ylim(top=ymax * 60)
+    # annotate the terminal "never commits" state, placed in the empty top strip
+    ax.annotate("budget exhausted,\nno answer committed",
+                xy=(xs[-1], ys[-1]), xytext=(max(xs) * 0.50, ymax * 12),
+                fontsize=8, color=P["muted"], ha="center", va="center",
+                arrowprops=dict(arrowstyle="-|>", color=P["muted"], lw=0.9,
+                                connectionstyle="arc3,rad=-0.25"))
+    ax.legend(loc="lower center", ncol=2, handlelength=1.5)
+    style_axes(ax)
+    fig.tight_layout()
+    fig.savefig(FIG / "fig_trajectory.pdf"); fig.savefig(FIG / "fig_trajectory.png")
     plt.close(fig)
 
 

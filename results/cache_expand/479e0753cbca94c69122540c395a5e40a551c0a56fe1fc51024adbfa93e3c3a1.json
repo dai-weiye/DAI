@@ -1,0 +1,1 @@
+{"content": "John collects peaches for 3 hours. Since there are 60 minutes in an hour, the total time in minutes is 3 × 60 = 180 minutes. He collects 2 peaches per minute, so the total number of peaches is 180 × 2 = 360.\n\nAnswer: 360", "finish_reason": "stop", "completion_tokens": 156, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}

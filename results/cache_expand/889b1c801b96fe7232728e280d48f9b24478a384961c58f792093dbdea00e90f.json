@@ -1,0 +1,1 @@
+{"content": "In a right triangle with \\(\\angle B = 90^\\circ\\), angle \\(A\\) is acute, so \\(\\cos A > 0\\). We are given \\(\\sin A = 2\\cos A\\). Dividing both sides by \\(\\cos A\\) yields \\(\\frac{\\sin A}{\\cos A} = 2\\), which is \\(\\tan A = 2\\).\n\nAnswer: 2", "finish_reason": "stop", "completion_tokens": 195, "model": "deepseek-ai/DeepSeek-V4-Pro", "cached": false}
